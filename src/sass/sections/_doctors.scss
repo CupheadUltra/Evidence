@@ -1,0 +1,50 @@
+.doctor{
+
+
+&__title{
+    color: #2887D9;
+font-family: Open Sans;
+font-size: 48px;
+font-weight: 600;
+line-height: 91.6; 
+}
+
+&__button{
+    display: flex;
+width: 636px;
+height: 80px;
+padding: 20px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+color: #FFF;
+
+
+font-family: Open Sans;
+font-size: 32px;
+font-weight: 400;
+line-height: 137.5; 
+}
+
+
+&__item1{
+    width: 270px;
+height: 270px;
+border-radius: 133px;
+border: 2px solid  #72B7F2;
+}
+
+&__item2{
+    width: 266px;
+height: 270px;
+border-radius: 135px;
+border: 2px solid #FCE296;
+}
+
+&__item3{
+    width: 391px;
+height: 398px;
+border-radius: 195.5px;
+border: 2px solid #F3DFEA;
+}
+}
