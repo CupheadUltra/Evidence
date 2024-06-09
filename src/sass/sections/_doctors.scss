@@ -2,10 +2,19 @@
 
 
 &__title{
-    color: #2887D9;
+    color: $blue-text-color;
 
 font-size: 48px;
 font-weight: 600;
+}
+
+&__text {
+    color:  #D1A4BC;
+
+    font-size: 96px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 0,72;
 }
 
 &__button{
@@ -16,8 +25,8 @@ padding: 20px;
 justify-content: center;
 align-items: center;
 gap: 10px;
-color: #FFF;
-background: #72B7F2;
+color: $white-input;
+background: $bg-btn;
 border-radius: 50px;
 border: none;
 
@@ -31,7 +40,7 @@ font-weight: 400;
     width: 270px;
 height: 270px;
 border-radius: 133px;
-border: 2px solid  #72B7F2;
+border: 2px solid  $bg-btn;
 }
 
 &__item2{
@@ -45,6 +54,6 @@ border: 2px solid #FCE296;
     width: 391px;
 height: 398px;
 border-radius: 195.5px;
-border: 2px solid #F3DFEA;
+border: 2px solid $questions-color;
 }
 }
