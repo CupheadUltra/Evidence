@@ -1,5 +1,5 @@
 .doctor{
-
+position: relative;
 
 &__title{
     color: $blue-text-color;
@@ -12,7 +12,15 @@ font-weight: 600;
     color:  #D1A4BC;
 
     font-size: 96px;
-    font-style: normal;
+    
+    font-weight: 400;
+    line-height: 0,72;
+}
+
+&__text2 {
+    color: $blue-text-color;
+    text-align: center;
+    font-size: 32px;
     font-weight: 400;
     line-height: 0,72;
 }
