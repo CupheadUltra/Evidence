@@ -3,10 +3,51 @@
     padding-bottom: 50px;
 
     &__title {
-        color: #2887D9;
+        color: $blue-text-color;
         font-family: "Open Sans";
         font-size: 48px;
         font-weight: 600;
         line-height: 0.91;
+        margin-bottom: 50px;
+    }
+
+    &__wrap {
+        width: 874px;
+        height: 400px;
+        background-color: $questions-color;
+        border-radius: 50px 0px 0px 0px;
+    }
+
+    &__wrap1 {
+        width: 874px;
+        height: 400px;
+        background-color: #CEF2F0;
+        border-radius: 0px 0px 0px 50px;
+    }
+
+    &__wrap2 {
+        width: 874px;
+        height: 400px;
+        background-color: $bg-footer;
+        position: absolute;
+        top: 44px;
+        right: -6px;
+        margin-top: 50px;
+        border-radius: 0px 50px 0px 0px;
+    }
+
+    &__wrap3 {
+        width: 874px;
+        height: 400px;
+        background-color: #FCE296;
+        position: absolute;
+        right: -6px;
+        top: 444px;
+        margin-top: 50px;
+        border-radius: 0px 0px 50px 0px;
+    }
+
+    &__container {
+        position: relative;
     }
 }
