@@ -1,6 +1,7 @@
 .hero {
     padding-top: 285px;
     padding-bottom: 69px;
+    position: relative;
 
     &__title {
         color: $blue-text-color;
@@ -32,5 +33,11 @@
         background-color: $blue-text-color;
         border-radius: 50px;
         border: none;
+    }
+
+    &__img {
+        position: absolute;
+        right: 159px;
+        top: 193px;
     }
 }
