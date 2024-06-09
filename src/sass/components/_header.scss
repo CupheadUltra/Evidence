@@ -7,7 +7,7 @@
     }
 
     &__link {
-        color: #3A3B3D;
+        color: $text-color;
         font-family: "Open Sans";
         font-size: 20px;
         font-weight: 400;
@@ -15,7 +15,7 @@
         margin-right: 40px;
 
         &:hover {
-            color: #2887D9;
+            color: $svg-color;
         }
     }
 
