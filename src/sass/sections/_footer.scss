@@ -1,0 +1,59 @@
+.footer {
+    &__div {
+        border-top: 1px solid #72B7F2;
+    }
+
+    &__rosters {
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+    }
+
+    &__roster {
+        display: flex;
+        gap: 16px;
+    }
+
+    &__icons {
+        fill: none;
+        stroke: #2887D9;
+    }
+
+    &__location { 
+        display: flex;
+        flex-direction: column;
+        gap: 4px;
+    }
+
+    &__contacts {
+        color: #2887D9;
+        font-family: "Montserrat";
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 1.13;
+    }
+
+    &__contact {
+        color: #3A3B3D;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 1.38;
+    }
+
+    &__schedules {
+        margin-top: 16px;
+        display: flex;
+        gap: 24px;
+        justify-content: center;
+    }
+
+    &__favor {
+        fill: none;
+        stroke: #2887D9;
+    }
+
+    &__images {
+        display: none;
+    }
+
+}
