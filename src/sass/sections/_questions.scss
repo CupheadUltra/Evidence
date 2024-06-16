@@ -1,47 +1,62 @@
 .questions {
+    padding-top: 24px;
+    padding-bottom: 93px;
 
-    &__effect {
-        display: flex;
-    }
-
-    &__request {
-        color: #2887D9;;
-        font-style: normal;
-        font-weight: 600;
-        line-height: normal;
-        font-family: "Open Sans";
-        font-size: 32px;
-
-    }
-    
-    &__title {
-        font-style: normal;
-        font-weight: 600;
-        line-height: 44px; 
-        color: #2887D9;;
-        font-family: "Open Sans";
-        font-size: 48px;
-
-    }
-
-    &__div {
-        display: flex;
-    }
-
-    &__case {
-        display: flex;
-        flex-direction: column;
-    }
-
-    &__button {
-        color: #3A3B3D;
-        font-weight: 600;
-        line-height: 44px; 
-        font-family: "Open Sans";
-        font-size: 32px;
-        font-style: normal;
-    }
-   
+&__title {
+    color: #2887D9;
+    font-family: "Open Sans";
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 44px; 
+    margin-bottom: 74px;
+    font-style: normal;
 
 }
 
+&__element {
+    color: #2887D9;
+    font-family: "Open Sans";
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+
+    
+}
+
+&__div {
+    display: flex;
+}
+
+
+
+&__question {
+    color: #3A3B3D;
+    font-family: "Open Sans";
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 44px; 
+}
+
+
+&__catalog {
+    margin-bottom: 64px;
+    padding-bottom: 32px;
+    border-bottom: solid #2887D9 1px;
+    width: 1052px;
+}
+
+&__case {
+    display: flex;
+    flex-direction: column;
+    border-radius: 50px;
+    background: #F3DCDC;
+    width: 449px;
+    height: 1466px;
+    padding: 56px;
+    margin-right: 125px;
+    gap: 56px;
+}
+
+}
