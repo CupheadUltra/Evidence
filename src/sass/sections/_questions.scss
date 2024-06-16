@@ -1,4 +1,6 @@
 .questions {
+    padding-top: 24px;
+    padding-bottom: 93px;
 
     &__effect {
         display: flex;
@@ -14,6 +16,12 @@
 
     }
     
+    &__element{
+        margin-bottom: 64px;
+        padding-bottom: 32px;
+        border-bottom: solid $accent-color 1px;
+        width: 1052px;
+    }
     &__title {
         font-style: normal;
         font-weight: 600;
@@ -21,16 +29,22 @@
         color: #2887D9;;
         font-family: "Open Sans";
         font-size: 48px;
+        margin-bottom: 74px;
 
     }
 
-    &__div {
-        display: flex;
-    }
+
 
     &__case {
         display: flex;
         flex-direction: column;
+        border-radius: 50px;
+        background: #F3DCDC;
+        width: 449px;
+        height: 1466px;
+        padding: 56px;
+        margin-right: 125px;
+        gap: 56px;
     }
 
     &__button {
