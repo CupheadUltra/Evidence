@@ -19,5 +19,12 @@
         }
     }
 
+    &__menu {
+        @media screen and (min-width: 1334px) {
+            display: none;
+        }
+
+    }
+
 
 }
