@@ -2,8 +2,24 @@
     padding-top: 16px;
     padding-bottom: 16px;
 
+    @media screen and (min-width: 1334px) {
+        padding-top: 21px;
+        padding-bottom: 21px;
+    }
+
+    @media screen and (min-width: 1766px) {
+        padding-top: 26px;
+        padding-bottom: 26px;
+    }
+
+    &__container {
+        display: flex;
+        align-items: center;
+    }
+
     &__list {
         display: flex;
+        margin-left: 800px;
     }
 
     &__link {
@@ -13,6 +29,11 @@
         font-weight: 400;
         line-height: 2.2;
         margin-right: 40px;
+        text-decoration: none;
+
+        @media screen and (min-width: 1334px) {
+            font-size: 14px;
+        }
 
         &:hover {
             color: $svg-color;
@@ -24,6 +45,24 @@
             display: none;
         }
 
+    }
+
+    &__profile {
+        text-align: right;
+        background-color: transparent;
+        border: none;
+        fill: transparent;
+        stroke: $svg-color;
+
+        @media screen and (min-width: 1334px) {
+            width: 29px;
+            height: 29px;
+        }
+    }
+
+    &__icons {
+        fill: transparent;
+        stroke: $svg-color;
     }
 
 

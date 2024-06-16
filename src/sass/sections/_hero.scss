@@ -41,17 +41,19 @@
         top: 193px;
     }
 
-    &__svg {
-        fill: #2887D9;
+    &__icon {
+        fill: transparent;
+        stroke: $svg-color;
+        margin-bottom: 16px;
     }
 
     &__list {
         display: flex;
+        margin-top: 350px;
     }
 
     &__texts {
         margin-right: 138px;
-        margin-top: 350px;
         color: $text-color;
         font-size: 14px;
         font-style: normal;
