@@ -42,6 +42,20 @@
     }
 
     &__svg {
-        color: aqua;
+        fill: #2887D9;
+    }
+
+    &__list {
+        display: flex;
+    }
+
+    &__texts {
+        margin-right: 138px;
+        margin-top: 350px;
+        color: $text-color;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 1.28;
     }
 }
