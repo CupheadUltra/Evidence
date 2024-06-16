@@ -1,8 +1,15 @@
 <header class="header">
-    <div class="container">
+    <div class="container header__container">
+
+        <svg class="header__icons" width="72" height="73">
+            <use href="../img/symbol-def.svg#icon-logo"></use>
+        </svg>
+        
+
+
         <ul class="header__list">
             <li class="header__item">
-                <a class="header__link" href="">Про нас</a>
+                <a class="header__link" href="../index.html">Про нас</a>
             </li>
             <li class="header__item">
                 <a class="header__link" href="../doctors.html">Лікарі</a>
@@ -20,6 +27,12 @@
                 <a class="header__link" href="">Контакти</a>
             </li>
         </ul>
+
+        <button type="button" class="header__profile" data-menu-open>
+            <svg class="header__prof" width="42" height="42">
+                <use href="./img/symbol-defs.svg#profile"></use>
+            </svg>
+        </button>
 
         <button type="button" class="header__menu" data-menu-open>
             <svg class="header__icon">
