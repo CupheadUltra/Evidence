@@ -16,11 +16,26 @@ font-weight: 600;
 
 &__itemts2{
     position: absolute;
-    top: 338px;
-    left: 445px;
+    top: 347px;
+    left: 505px;
 }
 
 &__text {
+    color:  #D1A4BC;
+
+    font-size: 96px;
+    font-weight: 400;
+    line-height: 0.72;
+}
+
+&__mintext{
+    color:  #D1A4BC;
+text-align: center;
+font-size: 22.767px;
+font-weight: 600;
+}
+
+&__namber{
     color:  #D1A4BC;
 
     font-size: 96px;
@@ -35,12 +50,22 @@ font-weight: 600;
     font-size: 32px;
     font-weight: 400;
     line-height: 0.72;
+    margin-top: 21px;
+}
+
+&__text3{
+    color: $blue-text-color;
+   
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 0.72;
+    margin-top: 12px;
 }
 
 &__button{
     display: flex;
-width: 636px;
-height: 80px;
+    width: 530px;
+    height: 65px;
 padding: 20px;
 justify-content: center;
 align-items: center;
@@ -64,7 +89,7 @@ cursor: pointer;
     border-radius: 50px;
     border: 1px solid #A4CEF5;
 display: flex;
-width: 715px;
+width: 635px;
 height: 316px;
 padding-top: 40px;
 flex-wrap: wrap;
@@ -74,7 +99,7 @@ padding-left: 36px;
 &__item1{
     position: absolute;
     top: 91px;
-    left: 860px;
+    left: 810px;
     
     width: 270px;
 height: 270px;
@@ -85,7 +110,7 @@ border: 2px solid  $bg-btn;
 &__item2{
     position: absolute;
     top: 94px;
-    left: 1216px;
+    left: 1250px;
     width: 266px;
 height: 270px;
 border-radius: 135px;
