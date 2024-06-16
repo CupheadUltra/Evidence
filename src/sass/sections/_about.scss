@@ -16,6 +16,9 @@
         height: 400px;
         background-color: $questions-color;
         border-radius: 50px 0px 0px 0px;
+        background-image: url(../../img/desktop/Framebackground-heart-decktop@1x.png) , url(../../img/desktop/Framebackground-syringe-decktop@1x.png);
+        background-repeat: no-repeat;
+        background-position: bottom left , top left;
     }
 
     &__wrap1 {
@@ -23,6 +26,10 @@
         height: 400px;
         background-color: #CEF2F0;
         border-radius: 0px 0px 0px 50px;
+        background-image: url(../../img/desktop/Framebackground-First-aid-kit-decktop@1x.png);
+        background-repeat: no-repeat;
+        background-position: bottom left;
+
     }
 
     &__wrap2 {
@@ -34,6 +41,9 @@
         right: -6px;
         margin-top: 50px;
         border-radius: 0px 50px 0px 0px;
+        background-image: url(../../img/desktop/Framebackground-tablet-decktop@1x.png) , url(../../img/desktop/Framebackground-smoll-heart-decktop@1x.png);
+        background-repeat: no-repeat;
+        background-position: top right , bottom right;
     }
 
     &__wrap3 {
@@ -45,6 +55,9 @@
         top: 444px;
         margin-top: 50px;
         border-radius: 0px 0px 50px 0px;
+        background-image: url(../../img/desktop/Framebackground-hear-the-heart-decktop@1x.png);
+        background-repeat: no-repeat;
+        background-position: right;
     }
 
     &__container {
