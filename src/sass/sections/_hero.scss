@@ -40,4 +40,24 @@
         right: 159px;
         top: 193px;
     }
+
+    &__icon {
+        fill: transparent;
+        stroke: $svg-color;
+        margin-bottom: 16px;
+    }
+
+    &__list {
+        display: flex;
+        margin-top: 350px;
+    }
+
+    &__texts {
+        margin-right: 138px;
+        color: $text-color;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 1.28;
+    }
 }
