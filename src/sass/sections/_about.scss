@@ -5,59 +5,116 @@
     &__title {
         color: $blue-text-color;
         font-family: "Open Sans";
-        font-size: 48px;
-        font-weight: 600;
-        line-height: 0.91;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 18px; 
         margin-bottom: 50px;
+
+        @media screen and (min-width: 1334px) {
+            font-size: 34px;
+            font-weight: 600;
+        }
+
+        @media screen and (min-width: 1766px) {
+            font-size: 48px;
+        }
     }
 
     &__wrap {
-        width: 874px;
-        height: 400px;
+        width: 100%;
+        height: 200px;
         background-color: $questions-color;
         border-radius: 50px 0px 0px 0px;
-        background-image: url(../../img/desktop/Framebackground-heart-decktop@1x.png) , url(../../img/desktop/Framebackground-syringe-decktop@1x.png);
+        background-image: url(../../img/desktop/Framebackground-heart-decktop@1x.png), url(../../img/desktop/Framebackground-syringe-decktop@1x.png);
         background-repeat: no-repeat;
-        background-position: bottom left , top left;
+        background-position: bottom left, top left;
+
+        @media screen and (min-width: 1334px) {
+            width: 620px;
+            height: 280px;
+        }
+
+        @media screen and (min-width: 1766px) {
+            width: 874px;
+            height: 400px;
+        }
     }
 
     &__wrap1 {
-        width: 874px;
-        height: 400px;
+        width: 100%;
+        height: 200px;
         background-color: #CEF2F0;
         border-radius: 0px 0px 0px 50px;
         background-image: url(../../img/desktop/Framebackground-First-aid-kit-decktop@1x.png);
         background-repeat: no-repeat;
         background-position: bottom left;
 
+        @media screen and (min-width: 1334px) {
+            width: 620px;
+            height: 280px;
+        }
+
+        @media screen and (min-width: 1766px) {
+            width: 874px;
+            height: 400px;
+        }
     }
 
     &__wrap2 {
-        width: 874px;
-        height: 400px;
+        width: 100%;
+        height: 200px;
         background-color: $bg-footer;
         position: absolute;
-        top: 44px;
-        right: -6px;
+        top: 32px;
+        right: 69px;
         margin-top: 50px;
         border-radius: 0px 50px 0px 0px;
-        background-image: url(../../img/desktop/Framebackground-tablet-decktop@1x.png) , url(../../img/desktop/Framebackground-smoll-heart-decktop@1x.png);
+        background-image: url(../../img/desktop/Framebackground-tablet-decktop@1x.png), url(../../img/desktop/Framebackground-smoll-heart-decktop@1x.png);
         background-repeat: no-repeat;
-        background-position: top right , bottom right;
+        background-position: top right, bottom right;
+
+        @media screen and (min-width: 1334px) {
+            width: 620px;
+            height: 280px;
+            top: 20px;
+            right: 69px;
+        }
+
+        @media screen and (min-width: 1766px) {
+            width: 874px;
+            height: 400px;
+            top: 19px;
+            right: -6px;
+        }
     }
 
     &__wrap3 {
-        width: 874px;
-        height: 400px;
+        width: 100%;
+        height: 200px;
         background-color: #FCE296;
         position: absolute;
-        right: -6px;
-        top: 444px;
+        right: 70px;
+        top: 310px;
         margin-top: 50px;
         border-radius: 0px 0px 50px 0px;
         background-image: url(../../img/desktop/Framebackground-hear-the-heart-decktop@1x.png);
         background-repeat: no-repeat;
         background-position: right;
+
+        @media screen and (min-width: 1334px) {
+            width: 620px;
+            height: 280px;
+            right: 70px;
+            top: 300px;
+        }
+
+        @media screen and (min-width: 1766px) {
+            width: 874px;
+            height: 400px;
+            top: 420px;
+            right: -5px;
+        }
     }
 
     &__container {
