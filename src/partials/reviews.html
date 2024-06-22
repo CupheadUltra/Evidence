@@ -1,22 +1,54 @@
 <section class="reviews">
-  <div class="container">
-    <h1 class="reviews__title">Що говорять наші клієнти</h1>
-    <div class="rewiews__comments">
-        <div class="reviews__comment">
-            <div>
-                <img class="reviews__photo" src="../img/desktop/registration-img1-desktop@1x.jpg" alt="Клієнт 1">
-                <p class="reviews__text">Записалася до лікаря через сайт, мені передзвонили, щоб підтвердити запис. Розмовляли ввічливо і відповіли на всі мої запитання про прийом. Це дуже зручно, мені сподобалось.</p>
-            </div>
-        </div>
-        <div class="mention">
-            <div>
-                <img class="reviews__photo" src="" alt="Клієнт 2">
-                <p class="reviews__text">Звернулась за допомогою у Евіденс, і отримала чудовий результат. Провели відео-консультацію, я отримала всі відповіді на питання. Дуже зручно!</p>
-            </div>
-        </div>
-        <div class="rewiews_illustration">
-            <img class="rewiews__image"  src="../img/desktop/registration-img2-desktop@1x.jpg" alt="Ілюстрація">
-        </div>
+    <div class="container">
+        <h2 class="reviews__title">Що говорять наші клієнти</h2>
+        <ul class="reviews__rosters">
+            <li>
+                <svg class="reviews__icons">
+                    <use href="../img/symbol-defs.svg#arrowdown"></use>
+                </svg>
+            </li>
+            <li>
+                <div>
+
+                    <picture>
+                        <source srcset=".// 1x, ./ 2x" media="(min-width: 1280px)">
+                        <source srcset="./ 1x, ./ 2x" media="(min-width: 736px)">
+                        <img class="reviews__photo" src="../img/desktop/reviews1@1x-desktop.webp" alt="" />
+                      </picture>
+                    <div class="reviews__divt">
+                        <p class="reviews__text">
+                            Записалася до лікаря через сайт, мені передзвонили, щоб підтвердити запис. Розмовляли ввічливо і відповіли на всі мої запитання про прийом. Це дуже зручно, мені сподобалось.
+                        </p>
+                    </div>
+                </div>
+
+                <div>
+                    <picture class="reviews__photos">
+                        <source srcset="./ 1x, ./2x" media="(min-width: 1280px)">
+                        <source srcset="./ 1x, ./2x" media="(min-width: 736px)">
+                        <img class="reviews__photo" src="../img/desktop/reviews2@1x-desktop.webp" alt="" />
+                      </picture>
+                    <div class="reviews__divt">
+                        <p class="reviews__text">
+                            Звернулась за допомогою у Евіденс, і отримала чудовий результат. Провели відео-консультацію, я отримала всі відповіді на питання. Дуже зручно!
+                        </p>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <svg class="reviews__icon">
+                    <use href="../img/symbol-defs.svg#arrowdown"></use>
+                </svg>
+            </li>
+            <li>
+                <div>
+                    <svg>
+                        <use href=""></use>
+                    </svg>
+                </div>
+
+            </li>
+
+        </ul>
     </div>
-  </div>
 </section>

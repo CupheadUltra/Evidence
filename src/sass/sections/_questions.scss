@@ -4,59 +4,80 @@
 
 &__title {
     color: #2887D9;
-    font-family: "Open Sans";
-    font-size: 48px;
     font-weight: 600;
     line-height: 44px; 
     margin-bottom: 74px;
+    font-family: "Open Sans";
+    font-size: 48px;
     font-style: normal;
 
 }
 
 &__element {
-    color: #2887D9;
+    color: #3A3B3D;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 44px; 
     font-family: "Open Sans";
     font-size: 32px;
+
+}
+
+
+
+&__part {
+    margin-bottom: 64px;
+    border-bottom: solid #2887D9 1px;
+    width: 1052px;
+    padding-bottom: 32px;
+
+}
+
+&__question {
+    color: #2887D9;
     font-style: normal;
     font-weight: 600;
     line-height: normal;
+    font-family: "Open Sans";
+    font-size: 32px;
 
-    
+
+ 
 }
 
 &__div {
     display: flex;
 }
 
-
-
-&__question {
-    color: #3A3B3D;
-    font-family: "Open Sans";
-    font-size: 32px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: 44px; 
+&__plus {
+    fill: #0052B4;
 }
 
-
-&__catalog {
-    margin-bottom: 64px;
-    padding-bottom: 32px;
-    border-bottom: solid #2887D9 1px;
-    width: 1052px;
+&__icons {
+    fill: transparent;
+    stroke: #2887D9;
+    margin-bottom: 16px;
 }
 
-&__case {
+&__roll {
     display: flex;
     flex-direction: column;
-    border-radius: 50px;
-    background: #F3DCDC;
     width: 449px;
     height: 1466px;
     padding: 56px;
     margin-right: 125px;
     gap: 56px;
-}
+    border-radius: 50px;
+    background: #F3DCDC;
 
 }
+
+
+
+}
+
+@media screen and (min-width: 1334px) {
+
+}
+
+@media screen and (min-width: 1766px) {}
