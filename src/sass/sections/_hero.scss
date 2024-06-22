@@ -3,13 +3,34 @@
     padding-bottom: 69px;
     position: relative;
 
+    @media screen and (min-width: 1334px) {
+        padding-top: 218px;
+        padding-bottom: 90px;
+    }
+
+    @media screen and (min-width: 1766px) {
+        padding-top: 285px;
+        padding-bottom: 69px;
+    }
+
+
     &__title {
         color: $blue-text-color;
         font-family: Montserrat;
-        font-size: 140px;
-        font-weight: 300;
+        font-size: 64px;
+        font-weight: 700;
         line-height: 0.45;
         margin-bottom: 40px;
+
+        @media screen and (min-width: 1334px) {
+            font-size: 99px;
+            font-weight: 300;
+        }
+
+        @media screen and (min-width: 1766px) {
+            font-size: 140px;
+            line-height: 0.45;
+        }
     }
 
     &__text {
@@ -36,11 +57,25 @@
     }
 
     &__img {
+        display: none;
         width: 678px;
         height: 849px;
         position: absolute;
-        right: 159px;
-        top: 193px;
+
+        @media screen and (min-width: 1334px) {
+            display: flex;
+            width: 482px;
+            height: 604px;
+            right: 159px;
+            top: 193px;
+        }
+
+        @media screen and (min-width: 1766px) {
+            width: 678px;
+            height: 849px;
+            right: 375px;
+            top: 193px;
+        }
     }
 
     &__icon {
@@ -51,7 +86,15 @@
 
     &__list {
         display: flex;
-        margin-top: 350px;
+        margin-top: 75px;
+
+        @media screen and (min-width: 1334px) {
+            margin-top: 150px;
+        }
+
+        @media screen and (min-width: 1766px) {
+            margin-top: 350px;
+        }
     }
 
     &__texts {
@@ -61,5 +104,7 @@
         font-style: normal;
         font-weight: 400;
         line-height: 1.28;
+        justify-content: center;
+        align-items: center;
     }
 }
