@@ -1,3 +1,5 @@
+
+
 .footer {
     background-color: #D0E1F1;
     padding: 25px 0px 10px 0px;
@@ -22,26 +24,27 @@
         background-color: #72B7F2;
     }
 
-    &__first-box {
+    &__roll {
         display: flex;
         align-items: center;
         gap: 39px;
     }
  
-    &__first-list {
+    &__rosters {
         gap: 140px;
         justify-content: center;
         display: flex;
         padding-bottom: 29px;
     }
     
-    &__icons {
+    &__icon {
         width: 42px;
         height: 42px;
         fill: transparent;
         stroke: $svg-color;
         margin-bottom: 16px;
     }
+
 
     &__text {
         color: var(--blue-dark-blue, #2887D9);
@@ -134,8 +137,5 @@
         flex-direction: column;
         gap: 12px;
     }
-
-
-
 
 }

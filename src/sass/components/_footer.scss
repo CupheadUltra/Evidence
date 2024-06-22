@@ -16,7 +16,7 @@
         fill: #2887D9;
     }
 
-    &__line {
+    &__div {
         position: absolute;
         top: 100px;
         width: 100%;
@@ -24,20 +24,20 @@
         background-color: #72B7F2;
     }
 
-    &__first-box {
+    &__roll {
         display: flex;
         align-items: center;
         gap: 39px;
     }
  
-    &__first-list {
+    &__rosters {
         gap: 140px;
         justify-content: center;
         display: flex;
         padding-bottom: 29px;
     }
     
-    &__icons {
+    &__icon {
         width: 42px;
         height: 42px;
         fill: transparent;
