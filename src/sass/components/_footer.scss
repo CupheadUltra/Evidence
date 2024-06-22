@@ -5,12 +5,8 @@
     padding: 25px 0px 10px 0px;
     position: relative;
 
-    &__logo1 {
-        width: 72px;
-        height: 84px;
-    }
 
-    &__logo2 {
+    &__logotype {
         width: 123px;
         height: 56px;
         fill: #2887D9;
@@ -24,20 +20,20 @@
         background-color: #72B7F2;
     }
 
-    &__roll {
+    &__rosters {
         display: flex;
         align-items: center;
         gap: 39px;
     }
  
-    &__rosters {
+    &__roll {
         gap: 140px;
         justify-content: center;
         display: flex;
         padding-bottom: 29px;
     }
     
-    &__icon {
+    &__icons {
         width: 42px;
         height: 42px;
         fill: transparent;
@@ -55,7 +51,7 @@
         line-height: 150%; /* 24px */
     }
 
-    &__discription {
+    &__subtext {
         color: var(--gray-maintext, #3A3B3D);
         font-family: "Open Sans";
         font-size: 16px;
@@ -64,7 +60,7 @@
         line-height: 150%; /* 24px */
     }
 
-    &__link {
+    &__unit {
         color: var(--gray-maintext, #3A3B3D);
         font-family: "Open Sans";
         font-size: 16px;
@@ -100,29 +96,29 @@
         line-height: 150%; /* 24px */
     }
 
-    &__second-list {
+    &__schedule {
         padding-top: 20px;
         display: flex;
         align-items: center;
     }
 
-    &__item2 {
+    &__part2 {
         margin-left: 133px ;
     }
     
-    &__item3 {
+    &__part3 {
         margin-left: 205px ;
     }
-    &__item4 {
+    &__part4 {
         margin-left: 345px ;
     }
 
-    &__logo-list {
+    &__ind {
         display: flex;
         align-items: center;
     }
 
-    &__list-text1 {
+    &__information {
         list-style: disc;
         margin-top: 12px;
         display: flex;
@@ -131,7 +127,7 @@
         margin-left: 20px;
     }
 
-    &__list-text2 {
+    &__docket {
         margin-top: 12px;
         display: flex;
         flex-direction: column;
@@ -139,3 +135,9 @@
     }
 
 }
+
+@media screen and (min-width: 1334px) {
+    
+}
+
+@media screen and (min-width: 1766px) {}

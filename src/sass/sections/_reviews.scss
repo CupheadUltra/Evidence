@@ -1,0 +1,83 @@
+.reviews {
+    padding-bottom: 23px ;
+
+    &__photo{
+        position: absolute;
+        max-width: 189px;
+        max-height: 193px;
+        z-index: 1;
+        margin-top: 72px;
+    }
+
+    &__photos{
+        max-height: 193px;
+        z-index: 1;
+        margin-top: 72px;
+        position: absolute;
+        max-width: 189px;
+
+    }
+
+    &__text {
+        color: var(--gray-maintext, #3A3B3D);
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        max-width: 561px;
+        font-family: "Open Sans";
+
+    }
+
+    &__title {
+        color: var(--blue-dark-blue, #2887D9);
+        font-family: "Open Sans";
+        font-weight: 600;
+        line-height: 44px; 
+        margin-bottom: 100px;
+        font-size: 48px;
+        font-style: normal;
+
+    }
+
+    &__divt {
+        position: relative;
+        padding: 38px 39px 38px 80px;   
+        background: #F2F3F5;
+        height: 340px;
+        width: 680px;
+        margin-left: 149px;
+        border-radius: 50px;
+        border: 1px solid var(--blue-blue, #72B7F2);
+
+    }
+
+    &__icons {
+        fill: #D0E1F1;
+        transform: rotate(180deg);
+        height: 52px;
+        margin-left: 458px;
+        width: 52px;
+
+    }
+
+    &__icon {
+        fill: #2887D9;
+        width: 52px;
+        height: 52px;
+        margin-left: 458px;
+    }
+}
+
+%__rosters li {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 50px;
+}
+
+@media screen and (min-width: 1334px) {
+    
+}
+
+@media screen and (min-width: 1766px) {}
