@@ -1,6 +1,16 @@
 .questions {
     padding-top: 24px;
     padding-bottom: 93px;
+    @media screen and (min-width: 1306px) {
+            
+    }
+
+      @media screen and (min-width: 1740px) {
+       padding-top: 24px;
+       padding-bottom: 93px;
+      }
+
+
 
 &__title {
     color: #2887D9;
@@ -10,6 +20,16 @@
     font-family: "Open Sans";
     font-size: 48px;
     font-style: normal;
+    @media screen and (min-width: 1306px) {
+        font-size: 34px;
+        margin-bottom: 24px;
+     }
+
+       @media screen and (min-width: 1740px) {
+        margin-bottom: 74px;
+        font-size: 48px;
+       }
+
 
 }
 
@@ -21,6 +41,17 @@
     font-family: "Open Sans";
     font-size: 32px;
 
+    @media screen and (min-width: 1306px) {
+        font-size: 23px;
+        font-weight: 600;
+        width: 224px;
+     }
+
+       @media screen and (min-width: 1740px) {
+        font-size: 32px;
+        line-height: 44px;
+        width: 291px;
+       }
 }
 
 
@@ -31,7 +62,19 @@
     width: 1052px;
     padding-bottom: 32px;
 
+    @media screen and (min-width: 1306px) {
+        margin-bottom: 24px;
+        padding-bottom: 24px;
+        width: 748px;
+     }
+
+       @media screen and (min-width: 1740px) {
+        margin-bottom: 32px;
+        padding-bottom: 32px;
+        width: 1052px;
+       }
 }
+
 
 &__question {
     color: #2887D9;
@@ -41,8 +84,13 @@
     font-family: "Open Sans";
     font-size: 32px;
 
+    @media screen and (min-width: 1306px) {
+        font-size: 23px;
+     }
 
- 
+       @media screen and (min-width: 1740px) {
+        font-size: 32px;
+       }
 }
 
 &__div {
@@ -57,6 +105,19 @@
     fill: transparent;
     stroke: #2887D9;
     margin-bottom: 16px;
+    @media screen and (min-width: 1306px) {
+        width: 30px; 
+        height: 30px;
+        font-size: 23px;
+        margin-right: 24px;
+     }
+
+       @media screen and (min-width: 1740px) {
+        width: 41px; 
+        height: 42px;
+        margin-right: 32px;
+       }
+
 }
 
 &__roll {

@@ -2,11 +2,34 @@
     &__container {
         display: flex;
         gap: 178px;
-    }
+        @media screen and (min-width: 1306px) {
+            flex-direction: row;
+                  }
+              
+                  @media screen and (min-width: 1740px) {
+                gap: 178px;
+                  }
+            }
     
+        &__div {
+            height: 278px;
+
+            @media screen and (min-width: 1306px) {
+                height: 100%;
+                        }
+        }
+        
         &__img {
             width: 808px;
-        } 
+            @media screen and (min-width: 1306px) {
+                width: 588px;
+                        }
+                    
+                        @media screen and (min-width: 1740px) {
+                        width: 808px;
+                
+                        }
+                    } 
     
         &__title {
             margin-top: 40px;
@@ -78,8 +101,3 @@
     }
     }
 
-    @media screen and (min-width: 1334px) {
-    
-    }
-
-    @media screen and (min-width: 1766px) {}
