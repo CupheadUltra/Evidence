@@ -1,6 +1,13 @@
 <section class="registration">
   <div class="container registration__container">
-    <img src="../img/desktop/portfolio-help@1x-desktop.webp" alt="hand" class="registration__img" />
+    <div class="registration__photod"> 
+      <picture>
+        <source srcset="../img/desktop/portfolio-help@1x-desktop.webp 1x, ../img/desktop/portfolio-help@2x-desktop.webp 2x" media="(min-width: 1280px)">
+        <source srcset="../img/tablet/registration/registration-photo@1x-tablet.webp 1x, ../img/tablet/registration/registration-photo@2x-tablet.webp 2x" media="(min-width: 736px)">
+        <source srcset="../img/mobile/registration/hero-photo@1x-mobile.webp ../img/mobile/registration/hero-photo@2x-mobile.webp" media="(min-width: 310px)">
+        <img class="registration__photo" src="../img/desktop/portfolio-help@1x-desktop.webp" alt="" />
+      </picture>
+    </div>
     <div class="registration__div">
       <h2 class="registration__title">Допоможемо знайти лікаря</h2>
     <ul class="registration__roll">
