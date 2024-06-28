@@ -40,8 +40,15 @@
     }
 
     &__search {
+        fill: transparent;
+        stroke: $svg-color;
         position: absolute;
         top: 16px;
-        right: 22px;
+        left: 1250px;
+    }
+
+    &__close {
+        fill: transparent;
+        stroke: $svg-color;
     }
 }
