@@ -1,7 +1,5 @@
 <section class="doctor">
   <div class="container">
-    
-
     <ul class="doctor__lists">
       <h2 class="doctor__title">Лікарі</h2>
       <li class="doctor__itemts">
@@ -9,16 +7,106 @@
         <p class="doctor__text2">досвідчених лікарів</p>
       </li>
       <li class="doctor__itemts2">
-        <h3 class="doctor__mintext"><span class="doctor__namber">35</span> років</h3>
+        <h3 class="doctor__mintext">
+          <span class="doctor__namber">35</span> років
+        </h3>
         <p class="doctor__text3">середній стаж</p>
       </li>
     </ul>
     <button class="doctor__button">Знайти лікаря</button>
 
     <ul class="doctor__list">
-      <li class="doctor__item1"><img src="../img/desktop/doctors1@1x-desktop.webp" alt="doctor" class="doctor__img" /></li>
-      <li class="doctor__item2"><img src="../img/desktop/doctors2@1x-desktop.webp" alt="doctor" class="doctor__img" /></li>
-      <li class="doctor__item3"><img src="../img/desktop/doctors3@1x-desktop.webp" alt="doctor" class="doctor__img" /></li>
+      <li class="doctor__item1">
+        <picture>
+          <source
+            srcset="
+              ../img/desktop/doctors1@1x-desktop.webp 1x,
+              ../img/desktop/doctors1@2x-desktop.webp 2x
+            "
+            media="(min-width: 1766px)"
+          />
+          <source
+            srcset="
+            ../img/tablet/search-photo1@1x-tablet.webp 1x,
+            ../img/tablet/search-photo1@2x-tablet.webp 2x
+            "
+            media="(min-width: 1334px)"
+          />
+          <source
+            srcset="
+              ../img/mobile/doctor1@1x.webp 1x,
+              ../img/mobile/doctor1@2x.webp 2x
+            "
+            media="(max-width: 1333px)"
+          />
+          <img
+            src="../img/desktop/doctors1@1x-desktop.webp"
+            alt="doctor"
+            class="doctor__img"
+          />
+        </picture>
+      </li>
+      <li class="doctor__item2">
+        <picture>
+          <source
+            srcset="
+              ../img/desktop/doctors2@1x-desktop.webp 1x,
+              ../img/desktop/doctors2@2x-desktop.webp 2x
+            "
+            media="(min-width: 1766px)"
+          />
+          <source
+            srcset="
+            ../img/tablet/search-photo2@1x-tablet.webp 1x,
+            ../img/tablet/search-photo2@2x-tablet.webp 2x
+            "
+            media="(min-width: 1334px)"
+          />
+          <img
+            src="../img/desktop/doctors2@1x-desktop.webp"
+            alt="doctor"
+            class="doctor__img"
+          />
+        </picture>
+        
+      </li>
+      <li class="doctor__item3">
+
+        <picture>
+          <source
+            srcset="
+              ../img/desktop/doctors3@1x-desktop.webp 1x,
+              ../img/desktop/doctors3@2x-desktop.webp 2x
+            "
+            media="(min-width: 1766px)"
+          />
+          <source
+            srcset="
+            ../img/tablet/search-photo3@1x-tablet.webp 1x,
+            ../img/tablet/search-photo3@2x-tablet.webp 2x
+            "
+            media="(min-width: 1334px)"
+          />
+          <source
+            srcset="
+              ../img/mobile/doctor2@1x.webp 1x,
+              ../img/mobile/doctor2@2x.webp 2x
+            "
+            media="(max-width: 1333px)"
+          />
+          <img
+            src="../img/desktop/doctors3@1x-desktop.webp"
+            alt="doctor"
+            class="doctor__img"
+          />
+        </picture>
+
+        <!-- <img
+          src="../img/desktop/doctors3@1x-desktop.webp"
+          alt="doctor"
+          class="doctor__img"
+        /> -->
+      </li>
     </ul>
   </div>
 </section>
