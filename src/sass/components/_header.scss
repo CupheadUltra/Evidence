@@ -28,18 +28,19 @@
         font-family: "Open Sans";
         font-size: 14px;
         font-weight: 400;
-        line-height: 2.2;
+        line-height: 0.45;
         margin-right: 40px;
         text-decoration: none;
 
         @media screen and (min-width: 1334px) {
             display: flex;
             font-size: 14px;
-            line-height: 2.21;
+            line-height: 0.45;
         }
 
         @media screen and (min-width: 1766px) {
             font-size: 20px;
+            margin-right: 30px;
         }
 
         &:hover {
