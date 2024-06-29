@@ -49,6 +49,7 @@
     }
 
     &__menu {
+
         @media screen and (min-width: 1334px) {
             display: none;
         }
@@ -56,13 +57,14 @@
     }
 
     &__profile {
-        text-align: right;
         background-color: transparent;
         border: none;
         fill: transparent;
         stroke: $svg-color;
+        margin-left: 150px;
 
         @media screen and (min-width: 1334px) {
+            text-align: right;
             width: 29px;
             height: 29px;
         }
@@ -71,5 +73,10 @@
     &__icons {
         fill: transparent;
         stroke: $svg-color;
+    }
+
+    &__icon {
+        width: 24px;
+        height: 24px;
     }
 }

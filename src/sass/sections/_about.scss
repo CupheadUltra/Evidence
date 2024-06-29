@@ -33,9 +33,13 @@
 
     &__wrap {
         display: flex;
-        width: 390px;
+        width: 272px;
         height: 86px;
         background-color: $questions-color;
+
+        @media screen and (min-width: 450px) {
+            width: 390px;
+        }
 
         @media screen and (min-width: 1334px) {
             display: block;
@@ -55,9 +59,13 @@
 
     &__wrap1 {
         display: flex;
-        width: 390px;
+        width: 272px;
         height: 86px;
         background-color: #CEF2F0;
+
+        @media screen and (min-width: 450px) {
+            width: 390px;
+        }
 
         @media screen and (min-width: 1334px) {
             display: block;
@@ -77,12 +85,16 @@
 
     &__wrap2 {
         display: flex;
-        width: 390px;
+        width: 272px;
         height: 86px;
         background-color: $bg-footer;
         position: absolute;
         top: 190px;
         margin-top: 50px;
+
+        @media screen and (min-width: 450px) {
+            width: 390px;
+        }
 
         @media screen and (min-width: 1334px) {
             display: block;
@@ -106,12 +118,16 @@
 
     &__wrap3 {
         display: flex;
-        width: 390px;
+        width: 272px;
         height: 86px;
         background-color: #FCE296;
         position: absolute;
         top: 275px;
         margin-top: 50px;
+
+        @media screen and (min-width: 450px) {
+            width: 390px;
+        }
 
         @media screen and (min-width: 1334px) {
             display: block;
@@ -140,10 +156,15 @@
     &__text {
         color: #EDBBD6;
         font-family: "Open Sans Hebrew";
-        font-size: 64px;
+        font-size: 35px;
         font-weight: 400;
         line-height: 0.73;
-        padding-top: 15px;
+        padding-top: 20px;
+
+        @media screen and (min-width: 450px) {
+            font-size: 64px;
+            padding-top: 15px;
+        }
 
         @media screen and (min-width: 1334px) {
             font-size: 113.833px;
@@ -161,11 +182,15 @@
     &__item {
         color: $blue-text-color;
         font-family: "Open Sans";
-        font-size: 16px;
+        font-size: 12px;
         font-weight: 400;
         line-height: 0.72;
         margin-left: 25px;
         padding-top: 30px;
+
+        @media screen and (min-width: 450px) {
+            font-size: 16px;
+        }
 
         @media screen and (min-width: 1334px) {
             font-size: 22.767px;
