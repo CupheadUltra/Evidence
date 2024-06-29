@@ -1,6 +1,16 @@
 .about {
-    padding-top: 100px;
-    padding-bottom: 50px;
+    padding-top: 32px;
+    padding-bottom: 100px;
+
+    @media screen and (min-width: 1334px) {
+        padding-bottom: 56px;
+        padding-top: 40px;
+    }
+
+    @media screen and (min-width: 1766px) {
+        padding-top: 100px;
+        padding-bottom: 50px;
+    }
 
     &__title {
         color: $blue-text-color;
@@ -8,7 +18,7 @@
         font-size: 16px;
         font-style: normal;
         font-weight: 700;
-        line-height: 18px; 
+        line-height: 18px;
         margin-bottom: 50px;
 
         @media screen and (min-width: 1334px) {
@@ -22,59 +32,61 @@
     }
 
     &__wrap {
-        width: 100%;
-        height: 200px;
+        display: flex;
+        width: 390px;
+        height: 86px;
         background-color: $questions-color;
-        border-radius: 50px 0px 0px 0px;
-        background-image: url(../../img/desktop/Framebackground-heart-decktop@1x.png), url(../../img/desktop/Framebackground-syringe-decktop@1x.png);
-        background-repeat: no-repeat;
-        background-position: bottom left, top left;
 
         @media screen and (min-width: 1334px) {
+            display: block;
             width: 620px;
             height: 280px;
+            border-radius: 50px 0px 0px 0px;
         }
 
         @media screen and (min-width: 1766px) {
+            background-image: url(../../img/desktop/heart@1x-desktop.webp), url(../../img/desktop/pink-about@1x-desktop.webp);
+            background-repeat: no-repeat;
+            background-position: bottom left, top left;
             width: 874px;
             height: 400px;
         }
     }
 
     &__wrap1 {
-        width: 100%;
-        height: 200px;
+        display: flex;
+        width: 390px;
+        height: 86px;
         background-color: #CEF2F0;
-        border-radius: 0px 0px 0px 50px;
-        background-image: url(../../img/desktop/Framebackground-First-aid-kit-decktop@1x.png);
-        background-repeat: no-repeat;
-        background-position: bottom left;
 
         @media screen and (min-width: 1334px) {
+            display: block;
             width: 620px;
             height: 280px;
+            border-radius: 0px 0px 0px 50px;
         }
 
         @media screen and (min-width: 1766px) {
+            background-image: url(../../img/desktop/green-about@1x-desktop.webp);
+            background-repeat: no-repeat;
+            background-position: bottom left;
             width: 874px;
             height: 400px;
         }
     }
 
     &__wrap2 {
-        width: 100%;
-        height: 200px;
+        display: flex;
+        width: 390px;
+        height: 86px;
         background-color: $bg-footer;
         position: absolute;
-        top: 32px;
-        right: 69px;
+        top: 190px;
         margin-top: 50px;
-        border-radius: 0px 50px 0px 0px;
-        background-image: url(../../img/desktop/Framebackground-tablet-decktop@1x.png), url(../../img/desktop/Framebackground-smoll-heart-decktop@1x.png);
-        background-repeat: no-repeat;
-        background-position: top right, bottom right;
 
         @media screen and (min-width: 1334px) {
+            display: block;
+            border-radius: 0px 50px 0px 0px;
             width: 620px;
             height: 280px;
             top: 20px;
@@ -82,6 +94,9 @@
         }
 
         @media screen and (min-width: 1766px) {
+            background-image: url(../../img/desktop/blue-about@1x-desktop.webp), url(../../img/desktop/small-heart@1x-desktop.webp);
+            background-repeat: no-repeat;
+            background-position: top right, bottom right;
             width: 874px;
             height: 400px;
             top: 19px;
@@ -90,26 +105,27 @@
     }
 
     &__wrap3 {
-        width: 100%;
-        height: 200px;
+        display: flex;
+        width: 390px;
+        height: 86px;
         background-color: #FCE296;
         position: absolute;
-        right: 70px;
-        top: 310px;
+        top: 275px;
         margin-top: 50px;
-        border-radius: 0px 0px 50px 0px;
-        background-image: url(../../img/desktop/Framebackground-hear-the-heart-decktop@1x.png);
-        background-repeat: no-repeat;
-        background-position: right;
 
         @media screen and (min-width: 1334px) {
+            display: block;
             width: 620px;
             height: 280px;
             right: 70px;
             top: 300px;
+            border-radius: 0px 0px 50px 0px;
         }
 
         @media screen and (min-width: 1766px) {
+            background-image: url(../../img/desktop/yellow-about@1x-desktop.webp);
+            background-repeat: no-repeat;
+            background-position: right;
             width: 874px;
             height: 400px;
             top: 420px;
@@ -119,5 +135,47 @@
 
     &__container {
         position: relative;
+    }
+
+    &__text {
+        color: #EDBBD6;
+        font-family: "Open Sans Hebrew";
+        font-size: 64px;
+        font-weight: 400;
+        line-height: 0.73;
+        padding-top: 15px;
+
+        @media screen and (min-width: 1334px) {
+            font-size: 113.833px;
+            font-weight: 300;
+            line-height: 0.72;
+            padding-top: 90px;
+            padding-left: 170px;
+        }
+
+        @media screen and (min-width: 1766px) {
+            display: none;
+        }
+    }
+
+    &__item {
+        color: $blue-text-color;
+        font-family: "Open Sans";
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 0.72;
+        margin-left: 25px;
+        padding-top: 30px;
+
+        @media screen and (min-width: 1334px) {
+            font-size: 22.767px;
+            font-weight: 400;
+            line-height: 0.70;
+            padding-left: 135px;
+        }
+
+        @media screen and (min-width: 1766px) {
+            display: none;
+        }
     }
 }
