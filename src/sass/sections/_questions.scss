@@ -2,14 +2,17 @@
     background:  #ECEFF7;
     padding-top: 33px;
     padding-bottom: 55px;
-    outline: solid yellow 2px;
 
-    @media screen and (min-width: 1306px) {
+
+
+    @media screen and (min-width: 1334px) {
+
         
      }
 
-       @media screen and (min-width: 1740px) {
+       @media screen and (min-width: 1766px) {
         padding-top: 24px;
+        
         padding-bottom: 93px;
        }
 
@@ -24,12 +27,12 @@
     font-size: 16px;
 
 
-    @media screen and (min-width: 1306px) {
+    @media screen and (min-width: 1334px) {
         font-size: 34px;
         margin-bottom: 24px;
      }
 
-       @media screen and (min-width: 1740px) {
+       @media screen and (min-width: 1766px) {
         margin-bottom: 74px;
         font-size: 48px;
        }
@@ -51,26 +54,27 @@
 
 
     
-    @media screen and (min-width: 1306px) {
+    @media screen and (min-width: 1334px) {
+        width: 320px;
         height: 1042.998px;
         padding: 40px;
         margin-right: 120px;
-        gap: 40px;
         background: #F3DCDC;
-        width: 320px;
+        gap: 40px;
 
      }
 
-       @media screen and (min-width: 1740px) {
+       @media screen and (min-width: 1766px) {
+        background: #F3DCDC;
+        height: 100px;
+        padding: 56px;
         gap: 56px;
         width: 449px;
         height: 1466px;
         margin-right: 125px;
-        background: #F3DCDC;
-        height: 100px;
-        padding: 56px;
 
        }
+
 }
 
 &__element {
@@ -82,13 +86,13 @@
     font-size: 16px;
 
 
-    @media screen and (min-width: 1306px) {
+    @media screen and (min-width: 1334px) {
         font-size: 23px;
         font-weight: 600;
         width: 224px;
      }
 
-       @media screen and (min-width: 1740px) {
+       @media screen and (min-width: 1766px) {
         font-size: 32px;
         line-height: 44px;
         width: 291px;
@@ -97,12 +101,15 @@
 
 &__icon {
     display: block;
+    fill: transparent;
+    stroke: #2887D9;
+    margin-bottom: 16px;
 
-    @media screen and (min-width: 1306px) {
+    @media screen and (min-width: 1334px) {
        display: none;
      }
 
-       @media screen and (min-width: 1740px) {
+       @media screen and (min-width: 1766px) {
         
        }
 }
@@ -110,11 +117,11 @@
 &__rosters {
     display: none;
 
-    @media screen and (min-width: 1306px) {
+    @media screen and (min-width: 1334px) {
         display: block;
      }
 
-       @media screen and (min-width: 1740px) {
+       @media screen and (min-width: 1766px) {
         
        }
 }
@@ -124,13 +131,13 @@
     align-items: center;
     border-bottom: solid #2887D9 1px;
 
-    @media screen and (min-width: 1306px) {
+    @media screen and (min-width: 1334px) {
         margin-bottom: 24px;
         padding-bottom: 24px;
         width: 748px;
      }
 
-       @media screen and (min-width: 1740px) {
+       @media screen and (min-width: 1766px) {
         margin-bottom: 32px;
         padding-bottom: 32px;
         width: 1052px;
@@ -142,28 +149,31 @@
     font-family: "Open Sans";
     font-weight: 600;
 
-    @media screen and (min-width: 1306px) {
+    @media screen and (min-width: 1334px) {
         font-size: 23px;
      }
 
-       @media screen and (min-width: 1740px) {
+       @media screen and (min-width: 1766px) {
         font-size: 32px;
        }
 }
 
 &__plus {
-    // display: flex;
+
     margin-left: auto;
+    fill: transparent;
+    fill: #2887D9;
+    margin-bottom: 16px;
     margin-right: 32px;
 
-    @media screen and (min-width: 1306px) {
+    @media screen and (min-width: 1334px) {
         width: 30px; 
         height: 30px;
         font-size: 23px;
         margin-right: 24px;
      }
 
-       @media screen and (min-width: 1740px) {
+       @media screen and (min-width: 1766px) {
         width: 41px; 
         height: 42px;
         margin-right: 32px;
