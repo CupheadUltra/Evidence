@@ -3,10 +3,26 @@
 
 
 &__title{
-    color:  $blue-text-color;
-font-family: Open Sans;
+    color: $blue-text-color;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 0.88; 
+
+@media screen and (min-width:1344px){
+    color:  #2887D9;
+font-size: 34.15px;
+font-weight: 600;
+line-height: 0.88; 
+}
+
+@media screen and (min-width: 1766px){
+      color:  $blue-text-color;
 font-size: 48px;
 font-weight: 600;
+margin-bottom: 68px;
+}
+
 }
 &__text{
     color:  $blue-text-color;
@@ -35,7 +51,7 @@ padding-bottom: 10px;
 
 &__svg{
     fill: $blue-text-color;
-   width: 110px;
+   width: 90px;
    height: 110px;
 
 }
