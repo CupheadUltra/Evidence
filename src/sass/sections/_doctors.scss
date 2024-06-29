@@ -27,18 +27,40 @@
   &__itemts {
     margin-left: 15px;
     @media screen and (min-width: 1334px) {
-      margin-left: 24px;
+      margin-left: 55px;
+      position: absolute;
+      top: 215px;
+      left: 65px;
     }
   }
 
   &__itemts2 {
     position: absolute;
     top: 259px;
-    left: 235px;
+    left: 205px;
+
+@media screen and (min-width:490px){
+  position: absolute;
+  top: 259px;
+  left: 270px;
+}
+
+@media screen and (min-width:630px){
+  position: absolute;
+  top: 259px;
+  left: 335px;
+}
+
+@media screen and (min-width:1243px){
+  position: absolute;
+  top: 259px;
+  left: 645px;
+}
+
     @media screen and (min-width: 1334px) {
       position: absolute;
-      top: 235px;
-      left: 420px;
+      top: 210px;
+      left: 380px;
     }
     @media screen and (min-width: 1766px) {
       position: absolute;
@@ -143,7 +165,8 @@
 
   &__button {
     display: flex;
-    width: 342px;
+    width: 100%;
+    height: 45px;
     padding: 14px 94px;
     justify-content: center;
     align-items: center;
@@ -161,6 +184,12 @@
       align-items: center;
       gap: 8px;
       margin-left: 15px;
+      color: #FFF;
+
+      font-size: 22.767px;
+
+      font-weight: 400;
+
     }
 
     @media screen and (min-width: 1766px) {
@@ -192,6 +221,8 @@
       border: 0.711px solid #a4cef5;
       width: 480px;
       height: 240px;
+      padding-top: 20px;
+      padding-left: 20px;
     }
 
     @media screen and (min-width: 1766px) {
@@ -209,9 +240,27 @@
   &__item1 {
     position: absolute;
     top: 87px;
-    left: 215px;
+    left: 180px;
     width: 139px;
     height: 139px;
+
+@media screen and (min-width:1243px){
+  position: absolute;
+    top: 87px;
+    left: 630px;
+    width: 139px;
+    height: 139px;
+}
+
+@media screen and (min-width: 1334px){
+  position: absolute;
+  top: 60px;
+  left: 710px;
+  width: 180px;
+  height: 180px;
+  border-radius: 133px;
+  border: 2px solid $bg-btn;
+}
 
     @media screen and (min-width: 1766px) {
       position: absolute;
@@ -226,7 +275,16 @@
 
   &__item2 {
     display: none;
-
+@media screen and (min-width:1334px){
+  display: block;
+  position: absolute;
+  top: 209px;
+  left: 850px;
+  width: 300px;
+  height: 300px;
+  border-radius: 195.5px;
+  border: 2px solid $questions-color;
+}
     @media screen and (min-width: 1766px) {
       position: absolute;
       top: 275px;
@@ -237,14 +295,35 @@
       border: 2px solid $questions-color;
       display: block;
     }
+
   }
 
   &__item3 {
     position: absolute;
     top: 140px;
-    left: 65px;
+    left: 50px;
     width: 112px;
     height: 114px;
+
+    @media screen and (min-width:1243px){
+      position: absolute;
+        top: 115px;
+        left: 465px;
+        width: 139px;
+        height: 139px;
+    }
+
+@media screen and (min-width: 1334px){
+  position: absolute;
+  top: 15px;
+  left: 1140px;
+  width: 180px;
+  height: 180px;
+  border-radius: 135px;
+  border: 2px solid #fce296;
+  display: block;
+}
+
     @media screen and (min-width: 1766px) {
       position: absolute;
       top: 15px;
