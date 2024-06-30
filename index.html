@@ -1,0 +1,890 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
+      integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    
+
+    <title></title>
+    <script type="module" crossorigin src="/evidence-team/assets/menu-6547ff89.js"></script>
+    <link rel="stylesheet" href="/evidence-team/assets/index-2fd4d3ce.css">
+  </head>
+  <body>
+    <header class="header">
+    <div class="container header__container">
+
+        <button type="button" class="header__menu" data-menu-open>
+            <svg class="header__icon">
+                <use href="/evidence-team/assets/symbol-defs-996db3c5.svg#menu"></use>
+            </svg>
+        </button>
+
+        <svg class="header__icons">
+            <use href="../img/symbol-defs.svg#logo"></use>
+        </svg>
+
+
+
+        <ul class="header__list">
+            <li class="header__item">
+                <a class="header__link" href="../index.html">Про нас</a>
+            </li>
+            <li class="header__item">
+                <a class="header__link" href="../doctors.html">Лікарі</a>
+            </li>
+            <li class="header__item">
+                <a class="header__link" href="">Вартість</a>
+            </li>
+            <li class="header__item">
+                <a class="header__link" href="">Запитання</a>
+            </li>
+            <li class="header__item">
+                <a class="header__link" href="">Відгуки</a>
+            </li>
+            <li class="header__item">
+                <a class="header__link" href="">Контакти</a>
+            </li>
+        </ul>
+
+        <!-- <button type="button" class="header__profile">
+            <svg class="header__prof" width="42" height="42">
+                <use href="./img/symbol-defs.svg#profile"></use>
+            </svg>
+        </button> -->
+
+    </div>
+</header>
+    
+    <div class="backdrops is-hidden" data-menu>
+    <div class="menu">
+
+        <div class="menu__box">
+            <button data-menu-close>
+                <svg class="menu__menu">
+                    <use href="../img/symbol-defs.svg#close-menu"></use>
+                </svg>
+            </button>
+            <svg class="menu__search">
+                <use href="../img/symbol-defs.svg#search"></use>
+            </svg>
+        </div>
+
+        <div class="menu__container">
+            <ul class="menu__lists">
+                <li class="menu__items">
+                    <svg class="menu__profile">
+                        <use href="../img/symbol-defs.svg#profile"></use>
+                    </svg>
+                    <p class="menu__texts" data-lang-ua="Увійти"  data-lang-en="Login">Увійти</p>
+
+                </li>
+                <li class="menu__items">
+                    <button>
+                        <svg class="menu__profile">
+                            <use href="../img/symbol-defs.svg#global"></use>
+                        </svg>
+                    </button>
+                    <button id="btn-ua" onclick="switchLanguage('ua')">
+                        <p class="menu__texts">Укр</p>
+                    </button>
+                    <p class="menu__width">/</p>
+                    <button id="btn-en" onclick="switchLanguage('en')">
+                        <p>Eng</p>
+                    </button>
+                </li>
+            </ul>
+        </div>
+
+        <div class="menu__box3">
+            <ul>
+                <li class="menu__item">
+                    <a class="menu__text" href="../index.html" data-lang-ua="Про нас" data-lang-en="About us">Про нас</a>
+                </li>
+                <li>
+                    <a class="menu__text" data-lang-ua="Вартість" data-lang-en="Cost">Вартість</a>
+                </li>
+                <li>
+                    <a class="menu__text" href="../doctors.html" data-lang-ua="Лікарі" data-lang-en="Doctors">Лікарі</a>
+                </li>
+                <li>
+                    <a class="menu__text" data-lang-ua="Запитання" data-lang-en="Questions">Запитання</a>
+                </li>
+                <li>
+                    <a class="menu__text" data-lang-ua="Відгуки" data-lang-en="Reviews">Відгуки</a>
+                </li>
+                <li>
+                    <a class="menu__text" data-lang-ua="Контакти" data-lang-en="Contacts">Контакти</a>
+                </li>
+            </ul>
+        </div>
+
+    </div>
+</div>
+    <section class="hero">
+    <div class="container">
+        <h1 class="hero__title">Evidence</h1>
+        <p class="hero__text"> Територія сучаної педіатрії - доказ нашої любові</p>
+        <button class="hero__btn">Записатись на прийом</button>
+        <picture>
+            <source
+                srcset="../img/desktop/hero@1x-desktop.webp 1x , ../img/desktop/hero@2x-desktop.webp 2x"
+                media="(min-width: 1766px)">
+            <source
+                srcset="../img/tablet/hero/hero-photo@1x-tablet.webp 1x , ../img/tablet/hero/hero-photo@2x-tablet.webp 2x"
+                media="(min-width: 1334px)">
+            <source
+                srcset="../img/mobile/hero/registration-photo@1x-mobile.webp 1x , ../img/mobile/hero/registration-photo@2x-mobile.webp 2x"
+                media="(max-width: 1333px)">
+            <img class="hero__img" src="../img/desktop/hero@1x-desktop.webp" alt="">
+        </picture>
+
+
+        <ul class="hero__list">
+            <li class="hero__item">
+                <svg class="hero__icon" width="42" height="42">
+                    <use href="../img/symbol-defs.svg#phone"></use>
+                </svg>
+                <h3 class="hero__texts">З’єднаємо зараз</h3>
+            </li>
+            <li class="hero__item">
+                <svg class="hero__icon" width="42" height="42">
+                    <use href="../img/symbol-defs.svg#calendar"></use>
+                </svg>
+                <h3 class="hero__texts">Цілодобово</h3>
+            </li>
+            <li class="hero__item">
+                <svg class="hero__icon" width="42" height="42">
+                    <use href="../img/symbol-defs.svg#wallet"></use>
+                </svg>
+                <h3 class="hero__texts">Вартість 400 грн</h3>
+            </li>
+        </ul>
+
+    </div>
+</section>
+     <!-- <section class="modal">
+    <div class="container">
+        <h1 class="modal__title">Послуги та вартість</h1>
+        <div class="modal__slider">
+            <input type="radio" name="slide" id="slide1" checked> 
+            <input type="radio" name="slide" id="slide2">
+            <input type="radio" name="slide" id="slide3">
+            <input type="radio" name="slide" id="slide4">
+
+            <ul class="modal">
+                <li >
+                    <svg width="94" height="100" class="modal__icon">
+                        <use href="../img/symbol-defs.svg#arrowdown"></use>
+                    </svg>
+                    <p ">Педіатрія</p>
+                </li>
+                <li >
+                    <svg width="95" height="100" class="modal__icon">
+                        <use href="../img/symbol-defs.svg#arrowdown"></use>
+                    </svg>
+                    <p ">Вакцинація</p>
+                </li>
+                <li >
+                    <svg width="100" height="100" class="modal__icon">
+                        <use href="../img/symbol-defs.svg#arrowdown"></use>
+                    </svg>
+                    <p ">Ортопед</p>
+                </li>
+                <li >
+                    <svg width="100" height="100" class="modal__icon">
+                        <use href="../img/symbol-defs.svg#arrowdown"></use>
+                    </svg>
+                    <p ">Гастроентеролог</p>
+                </li>
+                <li >
+                    <svg width="100" height="88" class="modal__icon">
+                        <use href="../img/symbol-defs.svg#arrowdown"></use>
+                    </svg>
+                    <p ">Стоматолог</p>
+                </li>
+                <li >
+                    <svg width="90" height="100" class="modal__icon">
+                        <use href="../img/symbol-defs.svg#arrowdown"></use>
+                    </svg>
+                    <p ">Нефролог</p>
+                </li>
+                <li >
+                    <svg width="100" height="100" class="modal__icon">
+                        <use href="./../../image/icons/symbol-defs.svg#icon-heart"></use>
+                    </svg>
+                    <p ">Кардіолог</p>
+                </li>
+                <li >
+                    <svg width="65" height="100" class="modal__icon">
+                        <use href="./../../image/icons/symbol-defs.svg#icon-Kidney"></use>
+                    </svg>
+                    <p ">Уролог</p>
+                </li>
+                <li >
+                    <svg width="85" height="90" class="modal__icon">
+                        <use href="./../../image/icons/symbol-defs.svg#icon-laboratory"></use>
+                    </svg>
+                    <p ">Лабораторія</p>
+                </li>
+                <li >
+                    <svg width="80" height="80" class="modal__icon">
+                        <use href="./../../image/icons/symbol-defs.svg#icon-arrowright"></use>
+                    </svg>
+                    <p ">Дивитись ще</p>
+                </li>
+            </ul>
+            <div>
+                <label for="slide1""></label>
+                <label for="slide2""></label>
+                <label for="slide3""></label>
+                <label for="slide4""></label>
+            </div>
+        </div>
+    </div>
+
+
+     <div >
+        <button  type="button" data-modal-close></button>
+        <h1 >Вакцинація</h1>
+        <ul>
+            <li ">
+                <h2 >Назва перпарату</h2>
+                <p>Вартість</p>
+            </li>
+            <li>
+                <h2 class="modal__modal-subtitle">Вакцинація від кашлюку, дифтерії, правцю (Бустрікс)</h2>
+                <p>1980 грн</p>
+            </li>
+            <li>
+                <h2 class="modal__modal-subtitle">Вакцинація від гепатиту А (Хаврикс)</h2>
+                <p>2457 грн</p>
+            </li>
+            <li>
+                <h2 class="modal__modal-subtitle">Вакцинація від ротавірусної інфекції (Ротарикс)</h2>
+                <p>2680 грн</p>
+            </li>
+            <li>
+                <h2 class="modal__modal-subtitle">Вакцинація Превенар (від пневмококової інфекції)</h2>
+                <p>1800 грн</p>
+            </li>
+            <li>
+                <h2 class="modal__modal-subtitle">Вакцинація від кашлюку, дифтерії, правцю (Бустрікс)</h2>
+                <p>1980 грн</p>
+            </li>
+            <li>
+                <h2 class="modal__modal-subtitle">Вакцинація від гепатиту А (Хаврикс)</h2>
+                <p>2457 грн</p>
+            </li>
+            <li>
+                <h2 class="modal__modal-subtitle">Вакцинація від ротавірусної інфекції (Ротарикс)</h2>
+                <p>2680 грн</p>
+            </li>
+            <li>
+                <h2 class="modal__modal-subtitle">Вакцинація Превенар (від пневмококової інфекції)</h2>
+                <p>1800 грн</p>
+            </li>
+            <li>
+                <h2 class="modal__modal-subtitle">Вакцинація від кашлюку, дифтерії, правцю (Бустрікс)</h2>
+                <p>1980 грн</p>
+            </li>
+            <li>
+                <h2 class="modal__modal-subtitle">Вакцинація від гепатиту А (Хаврикс)</h2>
+                <p>2457 грн</p>
+            </li>
+            <li>
+                <h2 class="modal__modal-subtitle">Вакцинація від ротавірусної інфекції (Ротарикс)</h2>
+                <p>2680 грн</p>
+            </li>
+            <li>
+                <h2 class="modal__modal-subtitle">Вакцинація Превенар (від пневмококової інфекції)</h2>
+                <p>1800 грн</p>
+            </li>
+            <li>
+                <h2 class="modal__modal-subtitle">Вакцинація від кашлюку, дифтерії, правцю (Бустрікс)</h2>
+                <p>1980 грн</p>
+            </li>
+            <li>
+                <h2 class="modal__modal-subtitle">Вакцинація від гепатиту А (Хаврикс)</h2>
+                <p>2457 грн</p>
+            </li>
+            <li>
+                <h2 class="modal__modal-subtitle">Вакцинація від ротавірусної інфекції (Ротарикс)</h2>
+                <p>2680 грн</p>
+            </li>
+            <li>
+                <h2 class="modal__modal-subtitle">Вакцинація Превенар (від пневмококової інфекції)</h2>
+                <p>1800 грн</p>
+            </li>
+        </ul>
+    </div> 
+
+    
+</section> 
+-->
+
+    <section class="about">
+    <div class="container about__container">
+        <h1 class="about__title">Про клініку в цифрах (2022)</h1>
+        <div class="about__wrap">
+            <p class="about__text">13 370</p>
+            <p class="about__item">щасливих пацієнтів</p>
+        </div>
+        <div class="about__wrap1">
+            <p class="about__text">1 247</p>
+            <p class="about__item">лабораторних досліджень</p>
+        </div>
+        <div class="about__wrap2">
+            <p class="about__text">568</p>
+            <p class="about__item">вакцинацій</p>
+        </div>
+        <div class="about__wrap3">
+            <p class="about__text">+10</p>
+            <p class="about__item">років турботи про Ваших малят</p>
+        </div>
+    </div>
+</section>
+    <section class="doctor">
+  <div class="container">
+    <ul class="doctor__lists">
+      <h2 class="doctor__title">Лікарі</h2>
+      <li class="doctor__itemts">
+        <h3 class="doctor__text">+100</h3>
+        <p class="doctor__text2">досвідчених лікарів</p>
+      </li>
+      <li class="doctor__itemts2">
+        <h3 class="doctor__mintext">
+          <span class="doctor__namber">35</span> років
+        </h3>
+        <p class="doctor__text3">середній стаж</p>
+      </li>
+    </ul>
+    <a href="./portfolio.html">
+    <button class="doctor__button">Знайти лікаря</button>
+</a>
+    <ul class="doctor__list">
+      <li class="doctor__item1">
+        <picture>
+          <source
+            srcset="
+              ../img/desktop/doctors1@1x-desktop.webp 1x,
+              ../img/desktop/doctors1@2x-desktop.webp 2x
+            "
+            media="(min-width: 1766px)"
+          />
+          <source
+            srcset="
+            ../img/tablet/doctor/search-photo1@1x-tablet.webp 1x,
+            ../img/tablet/doctor/search-photo1@2x-tablet.webp 2x
+            "
+            media="(min-width: 1334px)"
+          />
+          <source
+            srcset="
+            ../img/mobile/doctor/search-photo1@1x-mobile.webp 1x,
+            ../img/mobile/doctor/search-photo1@2x-mobile.webp 2x
+            "
+            media="(max-width: 1333px)"
+          />
+          <img
+            src="../img/mobile/doctor/search-photo1@1x-mobile.webp"
+            alt="doctor"
+            class="doctor__img"
+          />
+        </picture>
+      </li>
+      <li class="doctor__item2">
+        <picture>
+          <source
+            srcset="
+              ../img/desktop/doctors2@1x-desktop.webp 1x,
+              ../img/desktop/doctors2@2x-desktop.webp 2x
+            "
+            media="(min-width: 1766px)"
+          />
+          <source
+            srcset="
+            ../img/tablet/doctor/search-photo3@1x-tablet.webp 1x,
+            ../img/tablet/doctor/search-photo3@2x-tablet.webp 2x
+            "
+            media="(min-width: 1334px)"
+          />
+          <img
+            src="../img/desktop/doctors2@1x-desktop.webp"
+            alt="doctor"
+            class="doctor__img"
+          />
+        </picture>
+        
+      </li>
+      <li class="doctor__item3">
+
+        <picture>
+          <source
+            srcset="
+              ../img/desktop/doctors3@1x-desktop.webp 1x,
+              ../img/desktop/doctors3@2x-desktop.webp 2x
+            "
+            media="(min-width: 1766px)"
+          />
+          <source
+            srcset="
+            ../img/tablet/doctor/search-photo2@1x-tablet.webp 1x,
+            ../img/tablet/doctor/search-photo2@2x-tablet.webp 2x
+            "
+            media="(min-width: 1334px)"
+          />
+          <source
+            srcset="
+              ../img/mobile/doctor/search-photo2@1x-mobile.webp 1x,
+              ../img/mobile/doctor/search-photo2@2x-mobile.webp 2x
+            "
+            media="(max-width: 1333px)"
+          />
+          <img
+            src="../img/desktop/doctors3@1x-desktop.webp"
+            alt="doctor"
+            class="doctor__img"
+          />
+        </picture>
+
+        <!-- <img
+          src="../img/desktop/doctors3@1x-desktop.webp"
+          alt="doctor"
+          class="doctor__img"
+        /> -->
+      </li>
+    </ul>
+  </div>
+</section>
+
+    <section class="services">
+    <div class="container">
+<h2 class="services__title">Послуги та  вартість</h2>
+
+<ul class="services__list">
+    <li class="services__item">
+        <svg class="services__svg">
+            <use href="../img/symbol-defs.svg#baby"></use>
+        </svg>
+        <p class="services__text">Педіатрія</p>
+    </li>
+    <li class="services__item">
+        <svg class="services__svg">
+            <use href="../img/symbol-defs.svg#syringe"></use>
+        </svg>
+        <p class="services__text">Вакцинація</p>
+    </li>
+    <li class="services__item">
+        <svg class="services__svg">
+            <use href="../img/symbol-defs.svg#elbow"></use>
+        </svg>
+        <p class="services__text">Ортопед</p>
+    </li>
+    <li class="services__item">
+        <svg class="services__svg">
+            <use href="../img/symbol-defs.svg#stomach"></use>
+        </svg>
+        <p class="services__text">Гастроентеролог</p>
+    </li>
+    <li class="services__item">
+        <svg class="services__svg">
+            <use href="../img/symbol-defs.svg#tooth"></use>
+        </svg>
+        <p class="services__text">Стоматолог</p>
+    </li>
+    <li class="services__item">
+        <svg class="services__svg">
+            <use href="../img/symbol-defs.svg#doctor"></use>
+        </svg>
+        <p class="services__text">Нефрролог</p>
+    </li>
+    <li class="services__item">
+        <svg class="services__svg">
+            <use href="../img/symbol-defs.svg#heart"></use>
+        </svg>
+        <p class="services__text">Кардіолог</p>
+    </li>
+    <li class="services__item">
+        <svg class="services__svg">
+            <use href="../img/symbol-defs.svg#kidney"></use>
+        </svg>
+        <p class="services__text">Уролог</p>
+    </li>
+    <li class="services__item">
+        <svg class="services__svg">
+            <use href="../img/symbol-defs.svg#laboratory"></use>
+        </svg>
+        <p class="services__text">Лабораторія</p>
+    </li>
+    <li class="services__item">
+        <svg class="services__svg">
+            <use href="../img/symbol-defs.svg#"></use>
+        </svg>
+        <p class="services__text">Дивитись ще</p>
+    </li>
+</ul>
+<div class="slider">
+    <div class="slider-container">
+        <div class="slide">
+            <svg class="services__svg">
+                <use href="../img/symbol-defs.svg#baby"></use>
+            </svg>
+            <p class="services__text">Педіатрія</p>     </div>
+        <div class="slide">
+            <svg class="services__svg">
+                <use href="../img/symbol-defs.svg#syringe"></use>
+            </svg>
+            <p class="services__text">Вакцинація</p> 
+        </div>
+        <div class="slide">
+            <svg class="services__svg">
+                <use href="../img/symbol-defs.svg#elbow"></use>
+            </svg>
+            <p class="services__text">Ортопед</p> 
+        </div>
+        <div class="slide">
+            <svg class="services__svg">
+                <use href="../img/symbol-defs.svg#stomach"></use>
+            </svg>
+            <p class="services__text">Гастроентеролог</p>
+        </div>
+        <div class="slide">
+            <svg class="services__svg">
+                <use href="../img/symbol-defs.svg#tooth"></use>
+            </svg>
+            <p class="services__text">Стоматолог</p>
+        </div>
+        <div class="slide">
+            <svg class="services__svg">
+                <use href="../img/symbol-defs.svg#arrow"></use>
+            </svg>
+            <p class="services__text">Дивитись ще</p>
+    </div>
+    </div>
+    <div class="nav-dots">
+        <button class="dot active" data-index="0"></button>
+        <button class="dot" data-index="1"></button>
+        <button class="dot" data-index="2"></button>
+    </div>
+</div>
+    </div>
+</section>
+<script>
+    let currentIndex = 0;
+
+    const sliderContainer = document.querySelector('.slider-container');
+    const slides = document.querySelectorAll('.slide');
+    const dots = document.querySelectorAll('.dot');
+    const totalSlides = Math.ceil(slides.length / 3); // Количество слайдов для точек навигации
+
+    function updateSlider() {
+        const offset = -currentIndex * (100 / 3); // Перемещение на ширину одного слайда
+        sliderContainer.style.transform = `translateX(${offset}%)`;
+        dots.forEach((dot, index) => {
+            dot.classList.toggle('active', index === currentIndex);
+        });
+    }
+
+    dots.forEach(dot => {
+        dot.addEventListener('click', () => {
+            currentIndex = parseInt(dot.getAttribute('data-index'));
+            updateSlider();
+        });
+    });
+
+    updateSlider();
+</script>
+    <section class="questions">
+    <div class="container">
+        <h1 class="questions__title">Питання-відповідь</h1>
+        <div class="questions__div">
+            <div class="questions__roll">
+                <a href="" class="questions__element">Загальні питання</a>
+                <a href="" class="questions__element">Реєстрація та вхід</a>
+                <a href="" class="questions__element">Вакцинація</a>
+                <a href="" class="questions__element">Відео-консультація</a>
+                <svg class="questions__icons">
+                    <use href=""></use>
+                </svg>
+            </div>
+        
+            <div class="questions__quest">
+                <ul class="questions__rosters">
+                    <li class="questions__part">
+                        <a href="" class="questions__question">1. Як записатись до лікаря самостійно?</a>
+                        <svg width="15" height="15" class="questions__plus">
+                            <use href="../img/symbol-defs.svg#plus"></use>
+                          </svg>
+                    </li>
+                    <li class="questions__part">
+                        <a href="" class="questions__question">2. Як записатись до лікаря за направленням?</a>
+                        <svg width="15" height="15" class="questions__plus">
+                             <use href="../img/symbol-defs.svg#plus"></use>
+                          </svg>
+                    </li>
+                    <li class="questions__part">
+                        <a href="" class="questions__question">3. Як скасувати запис?</a>
+                        <svg width="15" height="15" class="questions__plus">
+                             <use href="../img/symbol-defs.svg#plus"></use>
+                          </svg>
+                    </li>
+                    <li class="questions__part">
+                        <a href="" class="questions__question">4. Як переглянути запис на прийом?</a>
+                        <svg width="15" height="15" class="questions__plus">
+                             <use href="../img/symbol-defs.svg#plus"></use>
+                          </svg>
+                    </li>
+                    <li class="questions__part">
+                        <a href="" class="questions__question">5. Як залишити відгук про лікаря?</a>
+                        <svg width="15" height="15" class="questions__plus">
+                             <use href="../img/symbol-defs.svg#plus"></use>
+                          </svg>
+                    </li>
+                    <li class="questions__part">
+                        <a href="" class="questions__question">6. Як змінити особисті дані?</a>
+                        <svg width="15" height="15" class="questions__plus">
+                             <use href="../img/symbol-defs.svg#plus"></use>
+                          </svg>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+    
+<section class="reviews">
+    <div class="container">
+        <h2 class="reviews__title">Що говорять наші клієнти</h2>
+        <ul class="reviews__rosters">
+            <li class="reviews__catalog">
+
+                <div>
+                    <picture>
+                        <source srcset="../img/desktop/reviews1@1x-desktop.webp 1x, ../img/desktop/reviews1@2x-desktop.webp 2x" media="(min-width: 1280px)">
+                        <source srcset="../img/tablet/reviews/reviews-photo1@1x-tablet.webp 1x, ../img/tablet/reviews/reviews-photo1@1x-tablet.webp 2x" media="(min-width: 736px)">
+                        <img class="reviews__photo" src="../img/desktop/reviews1@1x-desktop.webp" alt="" />
+                      </picture>
+                    <div class="reviews__divt">
+                        <p class="reviews__text">
+                            Записалася до лікаря через сайт, мені передзвонили, щоб підтвердити запис. Розмовляли ввічливо і відповіли на всі мої запитання про прийом. Це дуже зручно, мені сподобалось.
+                        </p>
+                    </div>
+                </div>
+
+                    <picture class="reviews__photos">
+                        <source srcset="../img/desktop/reviews2@1x-desktop.webp 1x, ../img/desktop/reviews2@2x-desktop.webp 2x" media="(min-width: 1280px)">
+                        <source srcset="../img/tablet/reviews/reviews-photo2@1x-tablet.webp 1x, ../img/tablet/reviews/reviews-photo2@2x-tablet.webp 2x" media="(min-width: 736px)">
+                        <img class="reviews__photo" src="../img/desktop/reviews2@1x-desktop.webp" alt="" />
+                      </picture>
+                    <div class="reviews__divt">
+                        <p class="reviews__text">
+                            Звернулась за допомогою у Евіденс, і отримала чудовий результат. Провели відео-консультацію, я отримала всі відповіді на питання. Дуже зручно!
+                        </p>
+                    </div>
+
+                <svg class="reviews__icon">
+                    <use href="../../image/icons/symbol-defs.svg#icon-arrow"></use>
+                </svg>
+            </li>
+
+        </ul>
+    </div>
+</section>
+    <footer class="footer">
+  <div class="footer__div"></div>
+  <div class="container">
+    
+      <ul class="footer__roll">
+          <li class="footer__element"> 
+              <ul class="footer__rosters">
+                  <li>
+                      <svg class="footer__icons">
+                          <use href="../img/symbol-defs.svg#map"></use>
+                      </svg>
+                  </li>
+
+                  <li>
+                      <ul class="footer__connection">
+                          <li>
+                              <p class="footer__text">Адреса:</p>
+                          </li>
+                          <li>
+                              <p class="footer__subtext">м.Львів, проспект Відродження, 121</p>
+                          </li>
+                      </ul>
+                  </li>     
+              </ul>
+          </li>
+          <li class="footer__element">
+              <ul class="footer__rosters">
+                  <li>
+                      <svg class="footer__icons">
+                          <use href="../img/symbol-defs.svg#mail"></use>
+                      </svg>
+                  </li>
+                  <li>
+                      <ul class="footer__connection">
+                          <li>
+                              <p class="footer__text">Email:</p>
+                          </li>
+                          <li>
+                              <p class="footer__subtext">evidence.ua@gmail.com</p>
+                          </li>
+                      </ul>
+                  </li>
+                              
+              </ul>
+
+          </li>
+          <li class="footer__element">
+              <ul class="footer__rosters">
+                  <li>
+                      <svg class="footer__icons">
+                          <use href="../img/symbol-defs.svg#phone"></use>
+                      </svg>
+                  </li>
+                  <li>
+                      <ul class="footer__connection">
+                          <li>
+                              <p class="footer__text">Телефон:</p>
+                          </li>
+                          <li>
+                              <p class="footer__subtext">(800) 000 00 00</p>
+                          </li>
+                      </ul>
+                  </li>         
+              </ul>
+          </li>
+          <li class="footer__element">
+              <ul class="footer__rost">
+                  <li>
+                      <svg class="footer__icons">
+                          <use href="../img/symbol-defs.svg#instagram"></use>
+                      </svg>
+                  </li>
+                  <li>
+                      <svg class="footer__icons">
+                          <use href="../img/symbol-defs.svg#facebook"></use>
+                      </svg> 
+                  </li>
+                  <li>
+                      <svg class="footer__icons">
+                          <use href="../img/symbol-defs.svg#google"></use>
+                      </svg>
+                  </li>
+              </ul>
+          </li>
+      </ul>
+      <ul class="footer__schedule">
+          <li class="footer__part1">
+              <a class="footer__ind" href="./index.html">
+                  <ul class="footer__catalog">
+                      <li>
+                         <img src="../img/symbol-defs.svg#logo" alt="">
+                      </li>
+                      <li>
+                          <svg class="footer__logotype">
+                              <use href="../img/symbol-defs.svg#logo"></use>
+                          </svg>
+                      </li>
+                  </ul>
+              </a>
+          </li>
+          <li class="footer__part2">
+              <h2 class="footer__subtitle">
+                  Наша клініка
+              </h2>
+              <ul class="footer__information">
+                  <li>
+                      <a href="#" class="footer__unit">більше 10 років турбуємось про Ваше здоров'я</a>
+                  </li>
+                  <li>
+                      <a href="#" class="footer__unit">клініка для дітей</a>
+                  </li>
+                  <li>
+                      <a href="#" class="footer__unit">найбільший медичний центр в області</a>
+                  </li>
+                  <li>
+                      <a href="#" class="footer__unit">широкий спектр послуг</a>
+                  </li>
+                  <li>
+                      <a href="#" class="footer__unit">всі видищеплень</a>
+                  </li>
+              </ul>
+          </li>
+          <li class="footer__part3">
+              <h2 class="footer__subtitle2">
+                  Навігація
+              </h2>
+              <ul class="footer__docket">
+                  <li>
+                      <a href="#" class="footer__specialness">Головна</a>
+                  </li>
+                  <li>
+                      <a href="#" class="footer__specialness">Про клініку</a>
+                  </li>
+                  <li>
+                     <a href="#" class="footer__specialness">Лікарі</a>
+                  </li>
+                  <li>
+                     <a href="#" class="footer__specialness">Послуги</a>
+                  </li>
+                  <li>
+                  <a  href="#" class="footer__specialness">FAQ</a>
+                  </li>
+                  <li>
+                      <a href="#" class="footer__specialness">Відгуки</a>
+                  </li>
+              </ul>
+          </li>
+          <li class="footer__part4">
+              <h2 class="footer__subtitle2">
+                  Наші послуги
+              </h2>
+              <ul class="footer__docket">
+                  <li>
+                      <a href="#" class="footer__specialness">Педіатрія</a>
+                  </li>
+                  <li>
+                      <a href="#" class="footer__specialness">Щеплення</a>
+                  </li>
+                  <li>
+                     <a href="#" class="footer__specialness">Діагностика</a>
+                  </li>
+                  <li>
+                     <a href="#" class="footer__specialness">Вузькі спеціалісти</a>
+                  </li>
+                  <li>
+                      <a href="#" class="footer__specialness">Стоматологія</a>
+                  </li>
+                  <li>
+                      <a href="#" class="footer__specialness">Лабораторія</a>
+                  </li>
+              </ul>
+
+          </li>
+      </ul>
+
+  </div>
+</footer>
+
+
+
+    <script
+    type="module"
+    src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+  ></script>
+  
+  <script src="./js/switch-language.js"></script>
+</html>
