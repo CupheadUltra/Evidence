@@ -19,7 +19,7 @@
 
     <title></title>
     <script type="module" crossorigin src="/evidence-team/assets/menu-6547ff89.js"></script>
-    <link rel="stylesheet" href="/evidence-team/assets/index-cc5c648d.css">
+    <link rel="stylesheet" href="/evidence-team/assets/index-2fd4d3ce.css">
   </head>
   <body>
     <header class="header">
@@ -58,11 +58,11 @@
             </li>
         </ul>
 
-        <button type="button" class="header__profile">
+        <!-- <button type="button" class="header__profile">
             <svg class="header__prof" width="42" height="42">
-                <use href="/evidence-team/assets/symbol-defs-dbb1d8e2.svg#profile"></use>
+                <use href="./img/symbol-defs.svg#profile"></use>
             </svg>
-        </button>
+        </button> -->
 
     </div>
 </header>
@@ -72,13 +72,62 @@
 
         <div class="menu__box">
             <button data-menu-close>
-                <svg>
+                <svg class="menu__menu">
                     <use href="../img/symbol-defs.svg#close-menu"></use>
                 </svg>
             </button>
             <svg class="menu__search">
                 <use href="../img/symbol-defs.svg#search"></use>
             </svg>
+        </div>
+
+        <div class="menu__container">
+            <ul class="menu__lists">
+                <li class="menu__items">
+                    <svg class="menu__profile">
+                        <use href="../img/symbol-defs.svg#profile"></use>
+                    </svg>
+                    <p class="menu__texts" data-lang-ua="Увійти"  data-lang-en="Login">Увійти</p>
+
+                </li>
+                <li class="menu__items">
+                    <button>
+                        <svg class="menu__profile">
+                            <use href="../img/symbol-defs.svg#global"></use>
+                        </svg>
+                    </button>
+                    <button id="btn-ua" onclick="switchLanguage('ua')">
+                        <p class="menu__texts">Укр</p>
+                    </button>
+                    <p class="menu__width">/</p>
+                    <button id="btn-en" onclick="switchLanguage('en')">
+                        <p>Eng</p>
+                    </button>
+                </li>
+            </ul>
+        </div>
+
+        <div class="menu__box3">
+            <ul>
+                <li class="menu__item">
+                    <a class="menu__text" href="../index.html" data-lang-ua="Про нас" data-lang-en="About us">Про нас</a>
+                </li>
+                <li>
+                    <a class="menu__text" data-lang-ua="Вартість" data-lang-en="Cost">Вартість</a>
+                </li>
+                <li>
+                    <a class="menu__text" href="../doctors.html" data-lang-ua="Лікарі" data-lang-en="Doctors">Лікарі</a>
+                </li>
+                <li>
+                    <a class="menu__text" data-lang-ua="Запитання" data-lang-en="Questions">Запитання</a>
+                </li>
+                <li>
+                    <a class="menu__text" data-lang-ua="Відгуки" data-lang-en="Reviews">Відгуки</a>
+                </li>
+                <li>
+                    <a class="menu__text" data-lang-ua="Контакти" data-lang-en="Contacts">Контакти</a>
+                </li>
+            </ul>
         </div>
 
     </div>
@@ -88,7 +137,19 @@
         <h1 class="hero__title">Evidence</h1>
         <p class="hero__text"> Територія сучаної педіатрії - доказ нашої любові</p>
         <button class="hero__btn">Записатись на прийом</button>
-        <img class="hero__img" src="../img/desktop/hero@1x-desktop.webp" alt="">
+        <picture>
+            <source
+                srcset="../img/desktop/hero@1x-desktop.webp 1x , ../img/desktop/hero@2x-desktop.webp 2x"
+                media="(min-width: 1766px)">
+            <source
+                srcset="../img/tablet/hero/hero-photo@1x-tablet.webp 1x , ../img/tablet/hero/hero-photo@2x-tablet.webp 2x"
+                media="(min-width: 1334px)">
+            <source
+                srcset="../img/mobile/hero/registration-photo@1x-mobile.webp 1x , ../img/mobile/hero/registration-photo@2x-mobile.webp 2x"
+                media="(max-width: 1333px)">
+            <img class="hero__img" src="../img/desktop/hero@1x-desktop.webp" alt="">
+        </picture>
+
 
         <ul class="hero__list">
             <li class="hero__item">
@@ -113,20 +174,189 @@
 
     </div>
 </section>
-    <div></div>
+     <!-- <section class="modal">
+    <div class="container">
+        <h1 class="modal__title">Послуги та вартість</h1>
+        <div class="modal__slider">
+            <input type="radio" name="slide" id="slide1" checked> 
+            <input type="radio" name="slide" id="slide2">
+            <input type="radio" name="slide" id="slide3">
+            <input type="radio" name="slide" id="slide4">
+
+            <ul class="modal">
+                <li >
+                    <svg width="94" height="100" class="modal__icon">
+                        <use href="../img/symbol-defs.svg#arrowdown"></use>
+                    </svg>
+                    <p ">Педіатрія</p>
+                </li>
+                <li >
+                    <svg width="95" height="100" class="modal__icon">
+                        <use href="../img/symbol-defs.svg#arrowdown"></use>
+                    </svg>
+                    <p ">Вакцинація</p>
+                </li>
+                <li >
+                    <svg width="100" height="100" class="modal__icon">
+                        <use href="../img/symbol-defs.svg#arrowdown"></use>
+                    </svg>
+                    <p ">Ортопед</p>
+                </li>
+                <li >
+                    <svg width="100" height="100" class="modal__icon">
+                        <use href="../img/symbol-defs.svg#arrowdown"></use>
+                    </svg>
+                    <p ">Гастроентеролог</p>
+                </li>
+                <li >
+                    <svg width="100" height="88" class="modal__icon">
+                        <use href="../img/symbol-defs.svg#arrowdown"></use>
+                    </svg>
+                    <p ">Стоматолог</p>
+                </li>
+                <li >
+                    <svg width="90" height="100" class="modal__icon">
+                        <use href="../img/symbol-defs.svg#arrowdown"></use>
+                    </svg>
+                    <p ">Нефролог</p>
+                </li>
+                <li >
+                    <svg width="100" height="100" class="modal__icon">
+                        <use href="./../../image/icons/symbol-defs.svg#icon-heart"></use>
+                    </svg>
+                    <p ">Кардіолог</p>
+                </li>
+                <li >
+                    <svg width="65" height="100" class="modal__icon">
+                        <use href="./../../image/icons/symbol-defs.svg#icon-Kidney"></use>
+                    </svg>
+                    <p ">Уролог</p>
+                </li>
+                <li >
+                    <svg width="85" height="90" class="modal__icon">
+                        <use href="./../../image/icons/symbol-defs.svg#icon-laboratory"></use>
+                    </svg>
+                    <p ">Лабораторія</p>
+                </li>
+                <li >
+                    <svg width="80" height="80" class="modal__icon">
+                        <use href="./../../image/icons/symbol-defs.svg#icon-arrowright"></use>
+                    </svg>
+                    <p ">Дивитись ще</p>
+                </li>
+            </ul>
+            <div>
+                <label for="slide1""></label>
+                <label for="slide2""></label>
+                <label for="slide3""></label>
+                <label for="slide4""></label>
+            </div>
+        </div>
+    </div>
+
+
+     <div >
+        <button  type="button" data-modal-close></button>
+        <h1 >Вакцинація</h1>
+        <ul>
+            <li ">
+                <h2 >Назва перпарату</h2>
+                <p>Вартість</p>
+            </li>
+            <li>
+                <h2 class="modal__modal-subtitle">Вакцинація від кашлюку, дифтерії, правцю (Бустрікс)</h2>
+                <p>1980 грн</p>
+            </li>
+            <li>
+                <h2 class="modal__modal-subtitle">Вакцинація від гепатиту А (Хаврикс)</h2>
+                <p>2457 грн</p>
+            </li>
+            <li>
+                <h2 class="modal__modal-subtitle">Вакцинація від ротавірусної інфекції (Ротарикс)</h2>
+                <p>2680 грн</p>
+            </li>
+            <li>
+                <h2 class="modal__modal-subtitle">Вакцинація Превенар (від пневмококової інфекції)</h2>
+                <p>1800 грн</p>
+            </li>
+            <li>
+                <h2 class="modal__modal-subtitle">Вакцинація від кашлюку, дифтерії, правцю (Бустрікс)</h2>
+                <p>1980 грн</p>
+            </li>
+            <li>
+                <h2 class="modal__modal-subtitle">Вакцинація від гепатиту А (Хаврикс)</h2>
+                <p>2457 грн</p>
+            </li>
+            <li>
+                <h2 class="modal__modal-subtitle">Вакцинація від ротавірусної інфекції (Ротарикс)</h2>
+                <p>2680 грн</p>
+            </li>
+            <li>
+                <h2 class="modal__modal-subtitle">Вакцинація Превенар (від пневмококової інфекції)</h2>
+                <p>1800 грн</p>
+            </li>
+            <li>
+                <h2 class="modal__modal-subtitle">Вакцинація від кашлюку, дифтерії, правцю (Бустрікс)</h2>
+                <p>1980 грн</p>
+            </li>
+            <li>
+                <h2 class="modal__modal-subtitle">Вакцинація від гепатиту А (Хаврикс)</h2>
+                <p>2457 грн</p>
+            </li>
+            <li>
+                <h2 class="modal__modal-subtitle">Вакцинація від ротавірусної інфекції (Ротарикс)</h2>
+                <p>2680 грн</p>
+            </li>
+            <li>
+                <h2 class="modal__modal-subtitle">Вакцинація Превенар (від пневмококової інфекції)</h2>
+                <p>1800 грн</p>
+            </li>
+            <li>
+                <h2 class="modal__modal-subtitle">Вакцинація від кашлюку, дифтерії, правцю (Бустрікс)</h2>
+                <p>1980 грн</p>
+            </li>
+            <li>
+                <h2 class="modal__modal-subtitle">Вакцинація від гепатиту А (Хаврикс)</h2>
+                <p>2457 грн</p>
+            </li>
+            <li>
+                <h2 class="modal__modal-subtitle">Вакцинація від ротавірусної інфекції (Ротарикс)</h2>
+                <p>2680 грн</p>
+            </li>
+            <li>
+                <h2 class="modal__modal-subtitle">Вакцинація Превенар (від пневмококової інфекції)</h2>
+                <p>1800 грн</p>
+            </li>
+        </ul>
+    </div> 
+
+    
+</section> 
+-->
+
     <section class="about">
     <div class="container about__container">
         <h1 class="about__title">Про клініку в цифрах (2022)</h1>
-        <div class="about__wrap"></div>
-        <div class="about__wrap1"></div>
-        <div class="about__wrap2"></div>
-        <div class="about__wrap3"></div>
+        <div class="about__wrap">
+            <p class="about__text">13 370</p>
+            <p class="about__item">щасливих пацієнтів</p>
+        </div>
+        <div class="about__wrap1">
+            <p class="about__text">1 247</p>
+            <p class="about__item">лабораторних досліджень</p>
+        </div>
+        <div class="about__wrap2">
+            <p class="about__text">568</p>
+            <p class="about__item">вакцинацій</p>
+        </div>
+        <div class="about__wrap3">
+            <p class="about__text">+10</p>
+            <p class="about__item">років турботи про Ваших малят</p>
+        </div>
     </div>
 </section>
     <section class="doctor">
   <div class="container">
-    
-
     <ul class="doctor__lists">
       <h2 class="doctor__title">Лікарі</h2>
       <li class="doctor__itemts">
@@ -134,16 +364,107 @@
         <p class="doctor__text2">досвідчених лікарів</p>
       </li>
       <li class="doctor__itemts2">
-        <h3 class="doctor__mintext"><span class="doctor__namber">35</span> років</h3>
+        <h3 class="doctor__mintext">
+          <span class="doctor__namber">35</span> років
+        </h3>
         <p class="doctor__text3">середній стаж</p>
       </li>
     </ul>
+    <a href="./portfolio.html">
     <button class="doctor__button">Знайти лікаря</button>
-
+</a>
     <ul class="doctor__list">
-      <li class="doctor__item1"><img src="../img/desktop/doctors1@1x-desktop.webp" alt="doctor" class="doctor__img" /></li>
-      <li class="doctor__item2"><img src="../img/desktop/doctors2@1x-desktop.webp" alt="doctor" class="doctor__img" /></li>
-      <li class="doctor__item3"><img src="../img/desktop/doctors3@1x-desktop.webp" alt="doctor" class="doctor__img" /></li>
+      <li class="doctor__item1">
+        <picture>
+          <source
+            srcset="
+              ../img/desktop/doctors1@1x-desktop.webp 1x,
+              ../img/desktop/doctors1@2x-desktop.webp 2x
+            "
+            media="(min-width: 1766px)"
+          />
+          <source
+            srcset="
+            ../img/tablet/doctor/search-photo1@1x-tablet.webp 1x,
+            ../img/tablet/doctor/search-photo1@2x-tablet.webp 2x
+            "
+            media="(min-width: 1334px)"
+          />
+          <source
+            srcset="
+            ../img/mobile/doctor/search-photo1@1x-mobile.webp 1x,
+            ../img/mobile/doctor/search-photo1@2x-mobile.webp 2x
+            "
+            media="(max-width: 1333px)"
+          />
+          <img
+            src="../img/mobile/doctor/search-photo1@1x-mobile.webp"
+            alt="doctor"
+            class="doctor__img"
+          />
+        </picture>
+      </li>
+      <li class="doctor__item2">
+        <picture>
+          <source
+            srcset="
+              ../img/desktop/doctors2@1x-desktop.webp 1x,
+              ../img/desktop/doctors2@2x-desktop.webp 2x
+            "
+            media="(min-width: 1766px)"
+          />
+          <source
+            srcset="
+            ../img/tablet/doctor/search-photo3@1x-tablet.webp 1x,
+            ../img/tablet/doctor/search-photo3@2x-tablet.webp 2x
+            "
+            media="(min-width: 1334px)"
+          />
+          <img
+            src="../img/desktop/doctors2@1x-desktop.webp"
+            alt="doctor"
+            class="doctor__img"
+          />
+        </picture>
+        
+      </li>
+      <li class="doctor__item3">
+
+        <picture>
+          <source
+            srcset="
+              ../img/desktop/doctors3@1x-desktop.webp 1x,
+              ../img/desktop/doctors3@2x-desktop.webp 2x
+            "
+            media="(min-width: 1766px)"
+          />
+          <source
+            srcset="
+            ../img/tablet/doctor/search-photo2@1x-tablet.webp 1x,
+            ../img/tablet/doctor/search-photo2@2x-tablet.webp 2x
+            "
+            media="(min-width: 1334px)"
+          />
+          <source
+            srcset="
+              ../img/mobile/doctor/search-photo2@1x-mobile.webp 1x,
+              ../img/mobile/doctor/search-photo2@2x-mobile.webp 2x
+            "
+            media="(max-width: 1333px)"
+          />
+          <img
+            src="../img/desktop/doctors3@1x-desktop.webp"
+            alt="doctor"
+            class="doctor__img"
+          />
+        </picture>
+
+        <!-- <img
+          src="../img/desktop/doctors3@1x-desktop.webp"
+          alt="doctor"
+          class="doctor__img"
+        /> -->
+      </li>
     </ul>
   </div>
 </section>
@@ -214,9 +535,77 @@
         <p class="services__text">Дивитись ще</p>
     </li>
 </ul>
-
+<div class="slider">
+    <div class="slider-container">
+        <div class="slide">
+            <svg class="services__svg">
+                <use href="../img/symbol-defs.svg#baby"></use>
+            </svg>
+            <p class="services__text">Педіатрія</p>     </div>
+        <div class="slide">
+            <svg class="services__svg">
+                <use href="../img/symbol-defs.svg#syringe"></use>
+            </svg>
+            <p class="services__text">Вакцинація</p> 
+        </div>
+        <div class="slide">
+            <svg class="services__svg">
+                <use href="../img/symbol-defs.svg#elbow"></use>
+            </svg>
+            <p class="services__text">Ортопед</p> 
+        </div>
+        <div class="slide">
+            <svg class="services__svg">
+                <use href="../img/symbol-defs.svg#stomach"></use>
+            </svg>
+            <p class="services__text">Гастроентеролог</p>
+        </div>
+        <div class="slide">
+            <svg class="services__svg">
+                <use href="../img/symbol-defs.svg#tooth"></use>
+            </svg>
+            <p class="services__text">Стоматолог</p>
+        </div>
+        <div class="slide">
+            <svg class="services__svg">
+                <use href="../img/symbol-defs.svg#arrow"></use>
+            </svg>
+            <p class="services__text">Дивитись ще</p>
+    </div>
+    </div>
+    <div class="nav-dots">
+        <button class="dot active" data-index="0"></button>
+        <button class="dot" data-index="1"></button>
+        <button class="dot" data-index="2"></button>
+    </div>
+</div>
     </div>
 </section>
+<script>
+    let currentIndex = 0;
+
+    const sliderContainer = document.querySelector('.slider-container');
+    const slides = document.querySelectorAll('.slide');
+    const dots = document.querySelectorAll('.dot');
+    const totalSlides = Math.ceil(slides.length / 3); // Количество слайдов для точек навигации
+
+    function updateSlider() {
+        const offset = -currentIndex * (100 / 3); // Перемещение на ширину одного слайда
+        sliderContainer.style.transform = `translateX(${offset}%)`;
+        dots.forEach((dot, index) => {
+            dot.classList.toggle('active', index === currentIndex);
+        });
+    }
+
+    dots.forEach(dot => {
+        dot.addEventListener('click', () => {
+            currentIndex = parseInt(dot.getAttribute('data-index'));
+            updateSlider();
+        });
+    });
+
+    updateSlider();
+</script>
     <section class="questions">
     <div class="container">
         <h1 class="questions__title">Питання-відповідь</h1>
@@ -264,7 +653,7 @@
                           </svg>
                     </li>
                     <li class="questions__part">
-                        <a href="" class="questions__question">6. Як змінити особисті дані?</a>\
+                        <a href="" class="questions__question">6. Як змінити особисті дані?</a>
                         <svg width="15" height="15" class="questions__plus">
                              <use href="../img/symbol-defs.svg#plus"></use>
                           </svg>
@@ -280,9 +669,7 @@
         <h2 class="reviews__title">Що говорять наші клієнти</h2>
         <ul class="reviews__rosters">
             <li class="reviews__catalog">
-                <svg class="reviews__icons">
-                    <use href="../img/symbol-defs.svg#arrowdown"></use>
-                </svg>
+
                 <div>
                     <picture>
                         <source srcset="../img/desktop/reviews1@1x-desktop.webp 1x, ../img/desktop/reviews1@2x-desktop.webp 2x" media="(min-width: 1280px)">
@@ -295,7 +682,7 @@
                         </p>
                     </div>
                 </div>
-                <div>
+
                     <picture class="reviews__photos">
                         <source srcset="../img/desktop/reviews2@1x-desktop.webp 1x, ../img/desktop/reviews2@2x-desktop.webp 2x" media="(min-width: 1280px)">
                         <source srcset="../img/tablet/reviews/reviews-photo2@1x-tablet.webp 1x, ../img/tablet/reviews/reviews-photo2@2x-tablet.webp 2x" media="(min-width: 736px)">
@@ -306,7 +693,7 @@
                             Звернулась за допомогою у Евіденс, і отримала чудовий результат. Провели відео-консультацію, я отримала всі відповіді на питання. Дуже зручно!
                         </p>
                     </div>
-                </div>
+
                 <svg class="reviews__icon">
                     <use href="../../image/icons/symbol-defs.svg#icon-arrow"></use>
                 </svg>
@@ -500,4 +887,5 @@
     src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
   ></script>
   
+  <script src="./js/switch-language.js"></script>
 </html>
