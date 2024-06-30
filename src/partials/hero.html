@@ -3,7 +3,19 @@
         <h1 class="hero__title">Evidence</h1>
         <p class="hero__text"> Територія сучаної педіатрії - доказ нашої любові</p>
         <button class="hero__btn">Записатись на прийом</button>
-        <img class="hero__img" src="../img/desktop/hero@1x-desktop.webp" alt="">
+        <picture>
+            <source
+                srcset="../img/desktop/hero@1x-desktop.webp 1x , ../img/desktop/hero@2x-desktop.webp 2x"
+                media="(min-width: 1766px)">
+            <source
+                srcset="../img/tablet/hero/hero-photo@1x-tablet.webp 1x , ../img/tablet/hero/hero-photo@2x-tablet.webp 2x"
+                media="(min-width: 1334px)">
+            <source
+                srcset="../img/mobile/hero/registration-photo@1x-mobile.webp 1x , ../img/mobile/hero/registration-photo@2x-mobile.webp 2x"
+                media="(max-width: 1333px)">
+            <img class="hero__img" src="../img/desktop/hero@1x-desktop.webp" alt="">
+        </picture>
+
 
         <ul class="hero__list">
             <li class="hero__item">

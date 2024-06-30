@@ -47,10 +47,15 @@
         stroke: $svg-color;
         width: 20px;
         height: 20px;
-        margin-left: 400px;
+        margin-left: 315px;
+
+        @media screen and (min-width: 550px) {
+            margin-left: 400px;
+        }
     }
 
     &__profile {
+        background-color: transparent;
         fill: transparent;
         stroke: $svg-color;
         width: 24px;
@@ -62,5 +67,44 @@
     }
 
     &__lists {
+        display: flex;
+    }
+
+    &__items {
+        margin-right: 200px;
+        display: flex;
+
+        @media screen and (min-width: 550px) {
+            margin-right: 350px;
+        }
+    }
+
+    &__box3 {
+        margin-top: 23px;
+    }
+
+    &__texts {
+        margin-left: 14px;
+        color: $text-color;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: normal;
+    }
+
+    &__text {
+        color: $text-color;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 44px;
+
+        &:hover {
+            color: $svg-color;
+        }
+    }
+
+    &__width {
+        margin-left: 10px;
+        margin-right: 10px;
+        height: 16px;
     }
 }
