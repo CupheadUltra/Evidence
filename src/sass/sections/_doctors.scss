@@ -1,7 +1,13 @@
 .doctor {
   position: relative;
   padding-top: 80px;
+  padding-bottom: 61px;
+
+  @media screen and (min-width: 1334px){
+    position: relative;
+  padding-top: 80px;
   padding-bottom: 200px;
+  }
   &__title {
     color: $blue-text-color;
     font-family: Montserrat;
@@ -26,11 +32,18 @@
   }
   &__itemts {
     margin-left: 15px;
+
+
+
     @media screen and (min-width: 1334px) {
       margin-left: 55px;
       position: absolute;
       top: 215px;
-      left: 65px;
+      left: 85px;
+    }
+    @media screen and (min-width: 1766px){
+      margin-left: 0px;
+      margin-top: 26px;
     }
   }
 
@@ -51,7 +64,7 @@
   left: 335px;
 }
 
-@media screen and (min-width:1243px){
+@media screen and (min-width:1223px){
   position: absolute;
   top: 259px;
   left: 645px;
@@ -244,7 +257,14 @@
     width: 139px;
     height: 139px;
 
-@media screen and (min-width:1243px){
+
+    @media screen and (min-width:630px){
+      position: absolute;
+      top: 87px;
+      left: 400px;
+    }
+    
+@media screen and (min-width:1223px){
   position: absolute;
     top: 87px;
     left: 630px;
@@ -305,7 +325,13 @@
     width: 112px;
     height: 114px;
 
-    @media screen and (min-width:1243px){
+    @media screen and (min-width:630px){
+      position: absolute;
+      top: 140px;
+      left: 245px;
+    }
+
+    @media screen and (min-width:1223px){
       position: absolute;
         top: 115px;
         left: 465px;
