@@ -14,22 +14,51 @@
 
         <div class="menu__container">
             <ul class="menu__lists">
-                <li>
+                <li class="menu__items">
                     <svg class="menu__profile">
                         <use href="../img/symbol-defs.svg#profile"></use>
                     </svg>
-                    <p>Увійти</p>
-                </li>
-                <li>
+                    <p class="menu__texts" data-lang-ua="Увійти"  data-lang-en="Login">Увійти</p>
 
                 </li>
+                <li class="menu__items">
+                    <button>
+                        <svg class="menu__profile">
+                            <use href="../img/symbol-defs.svg#global"></use>
+                        </svg>
+                    </button>
+                    <button id="btn-ua" onclick="switchLanguage('ua')">
+                        <p class="menu__texts">Укр</p>
+                    </button>
+                    <p class="menu__width">/</p>
+                    <button id="btn-en" onclick="switchLanguage('en')">
+                        <p>Eng</p>
+                    </button>
+                </li>
             </ul>
-            <button>
-                <svg class="menu__profile">
-                    <use href="../img/symbol-defs.svg#global"></use>
-                </svg>
-            </button>
-            <p>Укр / Eng</p>
+        </div>
+
+        <div class="menu__box3">
+            <ul>
+                <li class="menu__item">
+                    <a class="menu__text" href="../index.html" data-lang-ua="Про нас" data-lang-en="About us">Про нас</a>
+                </li>
+                <li>
+                    <a class="menu__text" data-lang-ua="Вартість" data-lang-en="Cost">Вартість</a>
+                </li>
+                <li>
+                    <a class="menu__text" href="../doctors.html" data-lang-ua="Лікарі" data-lang-en="Doctors">Лікарі</a>
+                </li>
+                <li>
+                    <a class="menu__text" data-lang-ua="Запитання" data-lang-en="Questions">Запитання</a>
+                </li>
+                <li>
+                    <a class="menu__text" data-lang-ua="Відгуки" data-lang-en="Reviews">Відгуки</a>
+                </li>
+                <li>
+                    <a class="menu__text" data-lang-ua="Контакти" data-lang-en="Contacts">Контакти</a>
+                </li>
+            </ul>
         </div>
 
     </div>
