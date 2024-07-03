@@ -19,7 +19,7 @@
 
     <title></title>
     <script type="module" crossorigin src="/evidence-team/assets/menu-6547ff89.js"></script>
-    <link rel="stylesheet" href="/evidence-team/assets/doctors-e21f5c59.css">
+    <link rel="stylesheet" href="/evidence-team/assets/doctors-cddf69bc.css">
   </head>
   <body>
     <header class="header">
@@ -27,12 +27,25 @@
 
         <button type="button" class="header__menu" data-menu-open>
             <svg class="header__icon">
-                <use href="/evidence-team/assets/symbol-defs-996db3c5.svg#menu"></use>
+                <use href="../img/symbol-defs.svg#menu"></use>
             </svg>
         </button>
 
-        <svg class="header__icons">
-            <use href="../img/symbol-defs.svg#logo"></use>
+        <picture>
+            <source
+                srcset="../img/desktop/logo@1x-desktop.webp 1x , ../img/desktop/logo@2x-desktop.webp 2x"
+                media="(min-width: 1766px)">
+            <source
+                srcset="../img/tablet/logo@1x-tablet.webp 1x , ../img/tablet/logo@2x-tablet.webp 2x"
+                media="(min-width: 1334px)">
+            <source
+                srcset="../img/mobile/logo@1x-mobile.webp 1x , ../img/mobile/logo@2x-mobile.webp 2x"
+                media="(max-width: 1333px)">
+            <img class="header__logo" src="../img/desktop/logo@1x-desktop.webp" alt="">
+        </picture>
+
+        <svg class="header__search">
+            <use href="../img/symbol-defs.svg#search"></use>
         </svg>
 
 
@@ -58,9 +71,13 @@
             </li>
         </ul>
 
+        <svg class="header__prof">
+            <use href="../img/symbol-defs.svg#profile"></use>
+        </svg>
+
         <!-- <button type="button" class="header__profile">
-            <svg class="header__prof" width="42" height="42">
-                <use href="./img/symbol-defs.svg#profile"></use>
+            <svg class="header__prof"">
+                <use href=""></use>
             </svg>
         </button> -->
 
@@ -87,7 +104,7 @@
                     <svg class="menu__profile">
                         <use href="../img/symbol-defs.svg#profile"></use>
                     </svg>
-                    <p class="menu__texts" data-lang-ua="Увійти"  data-lang-en="Login">Увійти</p>
+                    <p class="menu__texts" data-lang-ua="Увійти" data-lang-en="Login">Увійти</p>
 
                 </li>
                 <li class="menu__items">
@@ -96,11 +113,11 @@
                             <use href="../img/symbol-defs.svg#global"></use>
                         </svg>
                     </button>
-                    <button id="btn-ua" onclick="switchLanguage('ua')">
+                    <button class="menu__btn" id="btn-ua" onclick="switchLanguage('ua')">
                         <p class="menu__texts">Укр</p>
                     </button>
                     <p class="menu__width">/</p>
-                    <button id="btn-en" onclick="switchLanguage('en')">
+                    <button class="menu__btn" id="btn-en" onclick="switchLanguage('en')">
                         <p>Eng</p>
                     </button>
                 </li>
@@ -110,7 +127,8 @@
         <div class="menu__box3">
             <ul>
                 <li class="menu__item">
-                    <a class="menu__text" href="../index.html" data-lang-ua="Про нас" data-lang-en="About us">Про нас</a>
+                    <a class="menu__text" href="../index.html" data-lang-ua="Про нас" data-lang-en="About us">Про
+                        нас</a>
                 </li>
                 <li>
                     <a class="menu__text" data-lang-ua="Вартість" data-lang-en="Cost">Вартість</a>
@@ -126,6 +144,90 @@
                 </li>
                 <li>
                     <a class="menu__text" data-lang-ua="Контакти" data-lang-en="Contacts">Контакти</a>
+                </li>
+            </ul>
+        </div>
+
+        <div>
+            <ul class="footer__roll">
+                <li class="footer__element">
+                    <ul class="footer__rosters">
+                        <li>
+                            <svg class="footer__icons">
+                                <use href="../img/symbol-defs.svg#map"></use>
+                            </svg>
+                        </li>
+
+                        <li>
+                            <ul class="footer__connection">
+                                <li>
+                                    <p class="footer__text" data-lang-ua="Адреса:" data-lang-en="Adress:">Адреса:</p>
+                                </li>
+                                <li>
+                                    <p class="footer__subtext" data-lang-ua="м.Львів, проспект Відродження, 121" data-lang-en="м.Львів, проспект Відродження, 121">м.Львів, проспект Відродження, 121</p>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li class="footer__element">
+                    <ul class="footer__rosters">
+                        <li>
+                            <svg class="footer__icons">
+                                <use href="../img/symbol-defs.svg#mail"></use>
+                            </svg>
+                        </li>
+                        <li>
+                            <ul class="footer__connection">
+                                <li>
+                                    <p class="footer__text" data-lang-ua="Email" >Email:</p>
+                                </li>
+                                <li>
+                                    <p class="footer__subtext" data-lang-ua="evidence.ua@gmail.com" data-lang-en="evidence.ua@gmail.com">evidence.ua@gmail.com</p>
+                                </li>
+                            </ul>
+                        </li>
+
+                    </ul>
+
+                </li>
+                <li class="footer__element">
+                    <ul class="footer__rosters">
+                        <li>
+                            <svg class="footer__icons">
+                                <use href="../img/symbol-defs.svg#phone"></use>
+                            </svg>
+                        </li>
+                        <li>
+                            <ul class="footer__connection">
+                                <li>
+                                    <p class="footer__text" data-lang-ua="Телефон:" data-lang-en="Phone number">Телефон:</p>
+                                </li>
+                                <li>
+                                    <p class="footer__subtext">(800) 000 00 00</p>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li class="footer__element">
+                    <ul class="footer__rost">
+                        <li>
+                            <svg class="footer__icons">
+                                <use href="../img/symbol-defs.svg#instagram"></use>
+                            </svg>
+                        </li>
+                        <li>
+                            <svg class="footer__icons">
+                                <use href="../img/symbol-defs.svg#facebook"></use>
+                            </svg>
+                        </li>
+                        <li>
+                            <svg class="footer__icons">
+                                <use href="../img/symbol-defs.svg#google"></use>
+                            </svg>
+                        </li>
+                    </ul>
                 </li>
             </ul>
         </div>
