@@ -18,7 +18,7 @@
 
     <title></title>
     <script type="module" crossorigin src="/evidence-team/assets/menu-6547ff89.js"></script>
-    <link rel="stylesheet" href="/evidence-team/assets/index-bd4bab6e.css">
+    <link rel="stylesheet" href="/evidence-team/assets/index-d6fcb2f8.css">
   </head>
   <body>
     <header class="header">
@@ -707,7 +707,7 @@
 
     updateSlider();
 </script>
-    <section class="questions">
+      <section class="questions">
     <div class="container">
         <h1 class="questions__title">Питання-відповідь</h1>
         <div class="questions__div">
@@ -763,16 +763,15 @@
             </div>
         </div>
     </div>
-</section>
-    
-<section class="reviews">
-    <div class="container">
+</section> 
+
+    <section class="reviews" id="reviews">
+    <div class="container"> 
         <h2 class="reviews__title">Що говорять наші клієнти</h2>
         <ul class="reviews__rosters">
             <li class="reviews__catalog">
-
                 <div>
-                    <picture>
+                      <picture>
                         <source srcset="../img/desktop/reviews1@1x-desktop.webp 1x, ../img/desktop/reviews1@2x-desktop.webp 2x" media="(min-width: 1280px)">
                         <source srcset="../img/tablet/reviews/reviews-photo1@1x-tablet.webp 1x, ../img/tablet/reviews/reviews-photo1@1x-tablet.webp 2x" media="(min-width: 736px)">
                         <img class="reviews__photo" src="../img/desktop/reviews1@1x-desktop.webp" alt="" />
@@ -783,8 +782,10 @@
                         </p>
                     </div>
                 </div>
+                <div> 
 
-                    <picture class="reviews__photos">
+
+                      <picture class="reviews__photos">
                         <source srcset="../img/desktop/reviews2@1x-desktop.webp 1x, ../img/desktop/reviews2@2x-desktop.webp 2x" media="(min-width: 1280px)">
                         <source srcset="../img/tablet/reviews/reviews-photo2@1x-tablet.webp 1x, ../img/tablet/reviews/reviews-photo2@2x-tablet.webp 2x" media="(min-width: 736px)">
                         <img class="reviews__photo" src="../img/desktop/reviews2@1x-desktop.webp" alt="" />
@@ -794,12 +795,11 @@
                             Звернулась за допомогою у Евіденс, і отримала чудовий результат. Провели відео-консультацію, я отримала всі відповіді на питання. Дуже зручно!
                         </p>
                     </div>
-
+                </div>
                 <svg class="reviews__icon">
-                    <use href="../../image/icons/symbol-defs.svg#icon-arrow"></use>
+                    <use href="../../image/icons/symbol-defs.svg#icon-arrow"></use> box
                 </svg>
             </li>
-
         </ul>
     </div>
 </section>
@@ -896,9 +896,18 @@
                          <img src="../img/symbol-defs.svg#logo" alt="">
                       </li>
                       <li>
-                          <svg class="footer__logotype">
-                              <use href="../img/symbol-defs.svg#logo"></use>
-                          </svg>
+                        <picture>
+                            <source
+                                srcset="../img/desktop/logo@1x-desktop.webp 1x , ../img/desktop/logo@2x-desktop.webp 2x"
+                                media="(min-width: 1766px)">
+                            <source
+                                srcset="../img/tablet/logo@1x-tablet.webp 1x , ../img/tablet/logo@2x-tablet.webp 2x"
+                                media="(min-width: 1334px)">
+                            <source
+                                srcset="../img/mobile/logo@1x-mobile.webp 1x , ../img/mobile/logo@2x-mobile.webp 2x"
+                                media="(max-width: 1333px)">
+                            <img class="header__logo" src="../img/desktop/logo@1x-desktop.webp" alt="">
+                        </picture>
                       </li>
                   </ul>
               </a>
