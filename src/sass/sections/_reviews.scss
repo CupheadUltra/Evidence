@@ -2,23 +2,11 @@
     background-color: #ECEFF7;
     padding-bottom: 23px ;
 
-    &__icon1 {
-        height: 52px;
-        margin-left: 458px;
-        display: none;
-        fill: #D0E1F1;
-        transform: rotate(180deg);
-        width: 52px;
-
-
-        @media screen and (min-width:1740px) {
-           display: block;
-        }
-    }
 
     &__photo{
         height: 80px;
         z-index: 1;
+        margin-left: -18px;
         margin-top: 30px;
         position: absolute;
         width: 78px;
@@ -93,8 +81,9 @@
     &__divt {
         border: 1px solid var(--blue-blue, #72B7F2);
         background: #F2F3F5;
-        width: 280px;
-        height: 140px;
+        width: 257px;
+        height: 140px; 
+        left: -22px;
         margin-left: 61px;
         position: relative;
         padding: 15.677px 16.089px 34.588px 33.004px;
@@ -136,10 +125,18 @@
     }
 
 
+     
+
+
+
+    
+    
 
     &__catalog {
         flex-direction: column;
         gap: 25px;
+        width: 100%;
+
         margin-bottom: 53px;
         margin: 0 auto;
         display: flex;
