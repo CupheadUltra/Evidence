@@ -77,6 +77,46 @@
 
 }
 
+&__icon {
+    display: none;
+    fill: #72B7F2;
+    @media screen and (min-width: 1334px) {
+
+
+        display: block;
+
+        bottom: 16px;
+        right: 6px;
+        width: 309px;
+        margin-left: -39px;
+
+        height: 665px;
+     }
+
+       @media screen and (min-width: 1766px) {
+
+        bottom: 58px;
+        right: 10px;
+        width: 430px;
+        margin-left: -49px;
+        height: 934px;
+       }
+
+}
+
+&__doctor {
+    @media screen and (min-width: 1334px) {
+
+        display: none;
+     }
+
+       @media screen and (min-width: 1766px) {
+
+        display: none;
+       }
+
+}
+
 &__element {
     font-weight: 400;
     line-height: 22px; 
@@ -99,20 +139,6 @@
        }
 }
 
-&__icon {
-    display: block;
-    fill: transparent;
-    stroke: #2887D9;
-    margin-bottom: 16px;
-
-    @media screen and (min-width: 1334px) {
-       display: none;
-     }
-
-       @media screen and (min-width: 1766px) {
-        
-       }
-}
 
 &__rosters {
     display: none;
