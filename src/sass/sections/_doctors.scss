@@ -3,11 +3,26 @@
   padding-top: 80px;
   padding-bottom: 61px;
 
-  @media screen and (min-width: 1334px){
+background-size: 1px;
+
+  @media screen and (min-width: 1334px) {
     position: relative;
-  padding-top: 80px;
-  padding-bottom: 200px;
+    padding-top: 80px;
+    padding-bottom: 200px;
+    background-image: url(../../img/desktop/circle-big.png),
+    url(../../img/desktop/circle.png);
+  background-repeat: no-repeat;
+  background-position: bottom center, top right 480px  ;
+background-size: 250px , 166px;
   }
+
+@media screen and (min-width: 1766px){
+  background-image: url(../../img/desktop/circle-big.png),
+  url(../../img/desktop/circle.png);
+background-repeat: no-repeat;
+background-position: bottom center, top right 480px  ;
+}
+
   &__title {
     color: $blue-text-color;
     font-family: Montserrat;
@@ -33,17 +48,44 @@
   &__itemts {
     margin-left: 15px;
 
-
-
     @media screen and (min-width: 1334px) {
       margin-left: 55px;
       position: absolute;
       top: 215px;
       left: 85px;
     }
-    @media screen and (min-width: 1766px){
+
+    @media screen and (min-width: 1370px) {
+      margin-left: -30px;
+    }
+
+    @media screen and (min-width: 1420px) {
+      margin-left: 10px;
+    }
+
+    @media screen and (min-width: 1496px) {
+      margin-left: 30px;
+    }
+
+    @media screen and (min-width: 1590px) {
+      margin-left: 80px;
+    }
+
+    @media screen and (min-width: 1635px) {
+      margin-left: 110px;
+    }
+
+    @media screen and (min-width: 1650px) {
+      margin-left: 115px;
+    }
+
+    @media screen and (min-width: 1766px) {
       margin-left: 0px;
       margin-top: 26px;
+    }
+
+    @media screen and (min-width: 1870px) {
+      margin-left: 30px;
     }
   }
 
@@ -52,33 +94,92 @@
     top: 259px;
     left: 205px;
 
-@media screen and (min-width:490px){
-  position: absolute;
-  top: 259px;
-  left: 270px;
-}
+    @media screen and (min-width: 490px) {
+      position: absolute;
+      top: 259px;
+      left: 270px;
+    }
 
-@media screen and (min-width:630px){
-  position: absolute;
-  top: 259px;
-  left: 335px;
-}
+    @media screen and (min-width: 630px) {
+      position: absolute;
+      top: 259px;
+      left: 335px;
+    }
 
-@media screen and (min-width:1223px){
-  position: absolute;
-  top: 259px;
-  left: 645px;
-}
+    @media screen and (min-width: 790px) {
+      position: absolute;
+      top: 259px;
+      left: 425px;
+    }
+
+    @media screen and (min-width: 895px) {
+      position: absolute;
+      top: 259px;
+      left: 470px;
+    }
+
+    @media screen and (min-width: 920px) {
+      position: absolute;
+      top: 259px;
+      left: 480px;
+    }
+
+    @media screen and (min-width: 920px) {
+      position: absolute;
+      top: 259px;
+      left: 480px;
+    }
+
+    @media screen and (min-width: 1132px) {
+      position: absolute;
+      top: 259px;
+      left: 585px;
+    }
+
+    @media screen and (min-width: 1208px) {
+      top: 259px;
+      left: 633px;
+      position: absolute;
+    }
+
+    @media screen and (min-width: 1223px) {
+      position: absolute;
+      top: 259px;
+      left: 645px;
+    }
 
     @media screen and (min-width: 1334px) {
       position: absolute;
       top: 210px;
       left: 380px;
     }
+
+    @media screen and (min-width: 1370px) {
+      margin-left: -30px;
+    }
+
+    @media screen and (min-width: 1496px) {
+      margin-left: 10px;
+    }
+
+    @media screen and (min-width: 1590px) {
+      margin-left: 50px;
+    }
+    @media screen and (min-width: 1635px) {
+      margin-left: 80px;
+    }
+
+    @media screen and (min-width: 1650px) {
+      margin-left: 85px;
+    }
     @media screen and (min-width: 1766px) {
       position: absolute;
       top: 252px;
-      left: 420px;
+      left: 343px;
+    }
+
+    @media screen and (min-width: 1870px) {
+      margin-left: 30px;
     }
   }
 
@@ -197,12 +298,11 @@
       align-items: center;
       gap: 8px;
       margin-left: 15px;
-      color: #FFF;
+      color: #fff;
 
       font-size: 22.767px;
 
       font-weight: 400;
-
     }
 
     @media screen and (min-width: 1766px) {
@@ -226,6 +326,10 @@
 
   &__button:hover {
     background-color: #2887d9;
+  }
+
+  &__list {
+
   }
 
   &__lists {
@@ -257,30 +361,43 @@
     width: 139px;
     height: 139px;
 
+    
 
-    @media screen and (min-width:630px){
+    @media screen and (min-width: 630px) {
       position: absolute;
       top: 87px;
       left: 400px;
     }
-    
-@media screen and (min-width:1223px){
-  position: absolute;
-    top: 87px;
-    left: 630px;
-    width: 139px;
-    height: 139px;
-}
 
-@media screen and (min-width: 1334px){
-  position: absolute;
-  top: 60px;
-  left: 710px;
-  width: 180px;
-  height: 180px;
-  border-radius: 133px;
-  border: 2px solid $bg-btn;
-}
+    @media screen and (min-width: 884px) {
+      position: absolute;
+      top: 87px;
+      left: 470px;
+    }
+
+    @media screen and (min-width: 1132px) {
+      position: absolute;
+      top: 87px;
+      left: 570px;
+    }
+
+    @media screen and (min-width: 1223px) {
+      position: absolute;
+      top: 87px;
+      left: 630px;
+      width: 139px;
+      height: 139px;
+    }
+
+    @media screen and (min-width: 1334px) {
+      position: absolute;
+      top: 60px;
+      left: 710px;
+      width: 180px;
+      height: 180px;
+      border-radius: 133px;
+      border: 2px solid $bg-btn;
+    }
 
     @media screen and (min-width: 1766px) {
       position: absolute;
@@ -295,16 +412,16 @@
 
   &__item2 {
     display: none;
-@media screen and (min-width:1334px){
-  display: block;
-  position: absolute;
-  top: 209px;
-  left: 850px;
-  width: 300px;
-  height: 300px;
-  border-radius: 195.5px;
-  border: 2px solid $questions-color;
-}
+    @media screen and (min-width: 1334px) {
+      display: block;
+      position: absolute;
+      top: 209px;
+      left: 850px;
+      width: 300px;
+      height: 300px;
+      border-radius: 195.5px;
+      border: 2px solid $questions-color;
+    }
     @media screen and (min-width: 1766px) {
       position: absolute;
       top: 275px;
@@ -314,8 +431,9 @@
       border-radius: 195.5px;
       border: 2px solid $questions-color;
       display: block;
-    }
 
+    
+    }
   }
 
   &__item3 {
@@ -325,35 +443,47 @@
     width: 112px;
     height: 114px;
 
-    @media screen and (min-width:630px){
+    @media screen and (min-width: 630px) {
       position: absolute;
       top: 140px;
       left: 245px;
     }
 
-    @media screen and (min-width:1223px){
+    @media screen and (min-width: 884px) {
       position: absolute;
-        top: 115px;
-        left: 465px;
-        width: 139px;
-        height: 139px;
+      top: 140px;
+      left: 300px;
     }
 
-@media screen and (min-width: 1334px){
-  position: absolute;
-  top: 15px;
-  left: 1140px;
-  width: 180px;
-  height: 180px;
-  border-radius: 135px;
-  border: 2px solid #fce296;
-  display: block;
-}
+    @media screen and (min-width: 1132px) {
+      position: absolute;
+      top: 140px;
+      left: 420px;
+    }
+
+    @media screen and (min-width: 1223px) {
+      position: absolute;
+      top: 115px;
+      left: 465px;
+      width: 139px;
+      height: 139px;
+    }
+
+    @media screen and (min-width: 1334px) {
+      position: absolute;
+      top: 15px;
+      left: 1140px;
+      width: 180px;
+      height: 180px;
+      border-radius: 135px;
+      border: 2px solid #fce296;
+      display: block;
+    }
 
     @media screen and (min-width: 1766px) {
       position: absolute;
       top: 15px;
-      left: 1250px;
+      left: 1390px;
       width: 266px;
       height: 270px;
       border-radius: 135px;
