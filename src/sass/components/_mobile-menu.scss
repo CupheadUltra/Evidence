@@ -59,7 +59,11 @@
         stroke: $svg-color;
         width: 20px;
         height: 20px;
-        margin-left: 315px;
+        margin-left: 225px;
+
+        @media screen and (min-width: 450px) {
+            margin-left: 315px;
+        }
 
         @media screen and (min-width: 550px) {
             margin-left: 400px;
@@ -79,10 +83,15 @@
     }
 
     &__lists {
-        display: flex;
+        display: block;
+
+        @media screen and (min-width: 450px) {
+            display: flex;
+        }
     }
 
     &__items {
+        margin-top: 25px;
         margin-right: 200px;
         display: flex;
 

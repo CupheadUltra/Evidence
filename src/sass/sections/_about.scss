@@ -42,6 +42,9 @@
         }
 
         @media screen and (min-width: 1334px) {
+            background-image: url(../img/tablet/about/heart@1x-tablet.webp) , url(../img/tablet/about/pink-about@1x-tablet.webp);
+            background-repeat: no-repeat;
+            background-position: bottom left, top left;
             display: block;
             width: 620px;
             height: 280px;
@@ -49,7 +52,7 @@
         }
 
         @media screen and (min-width: 1766px) {
-            background-image: url(../../img/desktop/heart@1x-desktop.webp), url(../../img/desktop/pink-about@1x-desktop.webp);
+            background-image: url(../img/desktop/heart@1x-desktop.webp), url(../img/desktop/pink-about@1x-desktop.webp);
             background-repeat: no-repeat;
             background-position: bottom left, top left;
             width: 874px;
@@ -68,6 +71,9 @@
         }
 
         @media screen and (min-width: 1334px) {
+            background-image: url(../img/tablet/about/green-about@1x-tablet.webp);
+            background-repeat: no-repeat;
+            background-position: bottom left;
             display: block;
             width: 620px;
             height: 280px;
@@ -75,7 +81,7 @@
         }
 
         @media screen and (min-width: 1766px) {
-            background-image: url(../../img/desktop/green-about@1x-desktop.webp);
+            background-image: url(../img/desktop/green-about@1x-desktop.webp);
             background-repeat: no-repeat;
             background-position: bottom left;
             width: 874px;
@@ -97,6 +103,9 @@
         }
 
         @media screen and (min-width: 1334px) {
+            background-image: url(../img/tablet/about/blue-about@1x-tablet.webp) , url(../img/tablet/about/small-heart@1x-tablet.webp);
+            background-repeat: no-repeat;
+            background-position: top right, bottom right;
             display: block;
             border-radius: 0px 50px 0px 0px;
             width: 620px;
@@ -106,7 +115,7 @@
         }
 
         @media screen and (min-width: 1766px) {
-            background-image: url(../../img/desktop/blue-about@1x-desktop.webp), url(../../img/desktop/small-heart@1x-desktop.webp);
+            background-image: url(../img/desktop/blue-about@1x-desktop.webp), url(../img/desktop/small-heart@1x-desktop.webp);
             background-repeat: no-repeat;
             background-position: top right, bottom right;
             width: 874px;
@@ -130,6 +139,9 @@
         }
 
         @media screen and (min-width: 1334px) {
+            background-image: url(../img/tablet/about/yellow-about@1x-tablet.webp);
+            background-repeat: no-repeat;
+            background-position: right;
             display: block;
             width: 620px;
             height: 280px;
@@ -139,7 +151,7 @@
         }
 
         @media screen and (min-width: 1766px) {
-            background-image: url(../../img/desktop/yellow-about@1x-desktop.webp);
+            background-image: url(../img/desktop/yellow-about@1x-desktop.webp);
             background-repeat: no-repeat;
             background-position: right;
             width: 874px;
@@ -167,6 +179,7 @@
         }
 
         @media screen and (min-width: 1334px) {
+            font-family: "Open Sans Hebrew";
             font-size: 113.833px;
             font-weight: 300;
             line-height: 0.72;
