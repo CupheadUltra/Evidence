@@ -9,6 +9,42 @@
         background-position: 115px 0px;
     }
 
+    @media screen and (min-width: 440px) {
+        background-position: 175px 0px;
+    }
+
+    @media screen and (min-width: 670px) {
+        background-position: 225px 0px;
+    }
+
+    @media screen and (min-width: 790px) {
+        background-position: 260px 0px;
+    }
+
+    @media screen and (min-width: 790px) {
+        background-position: 315px 0px;
+    }
+
+    @media screen and (min-width: 940px) {
+        background-position: 355px 0px;
+    }
+
+    @media screen and (min-width: 1010px) {
+        background-position: 400px 0px;
+    }
+
+    @media screen and (min-width: 1120px) {
+        background-position: 510px 0px;
+    }
+
+    @media screen and (min-width: 1220px) {
+        background-position: 540px 0px;
+    }
+
+    @media screen and (min-width: 1300px) {
+        background-position: 525px 0px;
+    }
+
     @media screen and (min-width: 1334px) {
         background-image: url(../img/desktop/hero@1x-desktop.webp) , url(../img/tablet/hero/hero-bg@1x-tablet.webp);
         background-repeat: no-repeat;
