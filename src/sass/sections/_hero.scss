@@ -2,7 +2,7 @@
     padding-top: 200px;
     padding-bottom: 69px;
     position: relative;
-    background-image: url(../../img/mobile/hero/registration-photo@1x-mobile.webp);
+    background-image: url(../img/mobile/hero/registration-photo@1x-mobile.webp);
     background-repeat: no-repeat;
     background-size: 320px 368px;
     @media screen and (min-width: 440px) {
@@ -10,7 +10,7 @@
     }
 
     @media screen and (min-width: 1334px) {
-        background-image: url(../../img/desktop/hero@1x-desktop.webp) , url(../../img/tablet/hero/hero-bg@1x-tablet.webp);
+        background-image: url(../img/desktop/hero@1x-desktop.webp) , url(../img/tablet/hero/hero-bg@1x-tablet.webp);
         background-repeat: no-repeat;
         background-size: 482px 604px , 537px 631px;
         background-position: 810px 177px , 785px 150px;
@@ -19,7 +19,7 @@
     }
 
     @media screen and (min-width: 1766px) {
-        background-image: url(../../img/desktop/hero@1x-desktop.webp) , url(../../img/desktop/hero-bg@1x-desktop.webp);
+        background-image: url(../img/desktop/hero@1x-desktop.webp) , url(../img/desktop/hero-bg@1x-desktop.webp);
         background-repeat: no-repeat;
         background-size: 678px 849px , 756px 888px;
         background-position: 935px 190px , 900px 150px;
