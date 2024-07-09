@@ -154,6 +154,18 @@
          }
     }
 
+    &__icon {
+        display: none;
+        @media screen and (min-width:1306px) {
+            display: block;
+         }
+    
+         @media screen and (min-width:1740px) {
+            width: 743px;
+            height: 731px;
+         }
+    }
+
 
 
 
