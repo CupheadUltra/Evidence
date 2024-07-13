@@ -52,6 +52,16 @@
         background-position: 810px 177px , 785px 150px;
         padding-top: 218px;
         padding-bottom: 90px;
+
+        @media screen and (min-width: 1400px) {
+            background-position: 925px  177px, 900px 150px;
+        }
+
+        @media (min-device-pixel-ratio: 2),
+        (min-resolution: 192dpi),
+        (min-resolution: 2dppx) {
+            background-image: url(../img/desktop/hero@1x-desktop.webp) , url(../img/tablet/hero/hero-bg@1x-tablet.webp);
+        }
     }
 
     @media screen and (min-width: 1766px) {
@@ -61,6 +71,12 @@
         background-position: 935px 190px , 900px 150px;
         padding-top: 285px;
         padding-bottom: 69px;
+
+        @media (min-device-pixel-ratio: 2),
+        (min-resolution: 192dpi),
+        (min-resolution: 2dppx) {
+            background-image: url(../img/desktop/hero@1x-desktop.webp) , url(../img/desktop/hero-bg@1x-desktop.webp);
+        }
     }
 
 
